@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+before_install:
+  - npm cache verify
+  - npm cache clean --force
+  - npm install -g npm@latest
+script:
+  - npm run analyze

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "hackmyresume build resume.json to out/resume.pdf -o hmr-options.json",
+    "analyze": "hackmyresume analyze resume.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
