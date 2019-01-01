@@ -1,0 +1,423 @@
+{
+  "basics": {
+    "name": "Colin Wren",
+    "label": "Test Automation Engineer at BJSS",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "colinwren.is/awesome",
+    "summary": "Software Development Engineer in Test interested in Health tech, Augmented Reality and Open Source software. Very interested in Lean and Agile & building and working in great teams that build products that deliver the most value to the user through continuously improving quality and processes.",
+    "location": {
+      "address": "",
+      "postalCode": "LS9 8AY",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "colinwren",
+        "url": "https://twitter.com/colinwren"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "BJSS",
+      "position": "Test Automation Engineer",
+      "website": "",
+      "startDate": "2018-02-01",
+      "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place.   Then moving to Test Automation as they grow their global platform for new markets.  Technologies used: - JavaScript (ES6, EJS, Node) - React & Jest - PHP (Laravel, Lumen, PHPUnit) - Webdriver.io (WDIO) - webdriver-selenium - Docker - Gitlab & Gitlab Runners - Jenkins - Postman (and newman)",
+      "highlights": []
+    },
+    {
+      "company": "BJSS",
+      "position": "Software Developer - LiveObs",
+      "website": "",
+      "startDate": "2016-04-01",
+      "summary": "Leading a team of three amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods.   Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.  Technology used - Odoo - Python - Selenium - Locust - JavaScript (CoffeeScript, jQuery, Karma, Jasmine) - Docker - GoCD - Sketch & Marvel (for UX mockups) - Github - Travis - Codacy",
+      "highlights": [],
+      "endDate": "2018-02-01"
+    },
+    {
+      "company": "Neova Health",
+      "position": "Software Development Manager",
+      "website": "",
+      "startDate": "2015-04-01",
+      "summary": "Leading a team of eight amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods. Co-ordinated the adoption of Scrum and Continuous delivery practices as well helped to build a culture of validated learning and knowledge sharing within the company. Conducted staff performance reviews, appraisals and one-to-ones as well as other managerial duties.",
+      "highlights": [],
+      "endDate": "2016-03-01"
+    },
+    {
+      "company": "Neova Health",
+      "position": "Frontend Developer",
+      "website": "",
+      "startDate": "2014-07-01",
+      "summary": "Creating frontend for OpenERP/Odoo based electronic observation platform using Python, Coffeescript, D3.js and LESS. Also have some fun using Ansible, Bash, Scala and PhantomJS.",
+      "highlights": [],
+      "endDate": "2015-04-01"
+    },
+    {
+      "company": "Datarrgh Apps",
+      "position": "Director",
+      "website": "",
+      "startDate": "2013-12-01",
+      "summary": "A side project that will encompass all work I do outside of my day job at Neova Health.",
+      "highlights": [],
+      "endDate": "2016-01-01"
+    },
+    {
+      "company": "Tactix4",
+      "position": "Front End Developer",
+      "website": "",
+      "startDate": "2013-11-01",
+      "summary": "I make dynamic web and mobile interfaces using HTML5, CSS (LESS), Javascript and Play! framework in Scala for Miocare devices that run Tactix4's products utilising an open source development environment running Linux.",
+      "highlights": [],
+      "endDate": "2014-07-01"
+    },
+    {
+      "company": "Self Employed",
+      "position": "App developer",
+      "website": "",
+      "startDate": "2013-05-01",
+      "summary": "Working with NHS Somerset, the New Economics Foundation and AttDigital I was commissioned to design and develop an app for Android and iOS that helps user to keep track of their wellbeing and helps them set activities that will increase it.  The app was built using Apache Cordova (formerly PhoneGap) to give the app an even playing field across both platforms as due to the project timeframe and also that I was still working my 9-5 job there was a very limited amount of time. The app runs on HTML, CSS3 and JavaScript using plugins to use the devices local storage, SQLite database and to fire the local notifications which remind the user to do the activities they set.  While doing this project I increased my knowledge of PhoneGap / Cordova and updated a number of widely used plugins to use the newest version of Cordova.  Now doing my app / web work under the Datarrgh Apps name",
+      "highlights": [],
+      "endDate": "2013-12-01"
+    },
+    {
+      "company": "nhssm",
+      "position": "Joint Chair and Technology Specialist",
+      "website": "",
+      "startDate": "2010-08-01",
+      "summary": "Organising weekly #nhssm twitter chat, chairing the chats and managing the nhssm Twitter account. Creating the nhssm blog and the technical aspects of running nhssm. Sharing my knowledge of the technical side of social media with the nhssm group and provide easy to understand tutorials on how to do advanced social media tasks.",
+      "highlights": [],
+      "endDate": "2016-01-01"
+    },
+    {
+      "company": "St George's Healthcare NHS Trust",
+      "position": "New Media Officer",
+      "website": "",
+      "startDate": "2010-05-01",
+      "summary": "I worked as a Web Developer and Designer in the Communications Unit at St George's Healthcare NHS Trust. As well as maintaining the Trust's website and developing new features for the website I also managed the Trust's Social Media accounts.   My work with St George's Healthcare's Social Media accounts has been mentioned in the Financial Times and the Guardian Healthcare Network blog. I also lead a project that saw St George's Hospital become the first UK hospital to offer interior maps on Google Maps as well as redesigned and redeveloped the St George's Healthcare website.",
+      "highlights": [],
+      "endDate": "2013-11-01"
+    },
+    {
+      "company": "Moya Hogarth",
+      "position": "Web Designer and Developer",
+      "website": "",
+      "startDate": "2008-02-01",
+      "summary": "I made a website for a local artist, Moya Hogarth. I was tasked with taking her existing web site and making it more dynamic and existing while keeping it elegant at the same time. I worked closely with Moya to create a website that met her needs. From Design to completion the website took 2 months, I was a University at the time so I wasn't able to spend much time on development.",
+      "highlights": [],
+      "endDate": "2008-03-01"
+    },
+    {
+      "company": "JD Wetherspoon",
+      "position": "Bar Associate",
+      "website": "",
+      "startDate": "2007-02-01",
+      "summary": "I worked on the Bar at the Edward Rayne in Raynes Park. Working in a pub allowed me to learn how to read people so I can create an instant rapport with them. Something that has helped immensely in later life.",
+      "highlights": [],
+      "endDate": "2010-04-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "BA (Hons)",
+      "startDate": "2006-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2009-01-01"
+    },
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "A Levels",
+      "startDate": "2004-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2006-01-01"
+    },
+    {
+      "institution": "Bishopsford Community School",
+      "area": "",
+      "studyType": "",
+      "startDate": "2000-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2004-01-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Social networking for nurses",
+      "publisher": "Nursing in Practice",
+      "releaseDate": "2012-03-20",
+      "website": "http://content.yudu.com/Library/A1w44i/NursinginPracticeMar/resources/29.htm",
+      "summary": "Article covers the use of social media by nurses, the available networks and how it can improve healthcare"
+    },
+    {
+      "name": "An issue of confidence: social media for nurses and midwives",
+      "publisher": "Guardian Healthcare Network",
+      "releaseDate": "2012-02-21",
+      "website": "http://www.guardian.co.uk/healthcare-network/2012/feb/21/issue-confidence-social-media-training",
+      "summary": "Confidentiality is key when dealing with patients on digital networks and formal training should be required, explains Colin Wren"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Accessibility",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SEO",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "iPhone Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Webservice design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Content Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Healthcare",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Graphic Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Twitter",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Phone Apps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Blogging",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Change Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Content Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "SQL",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Javascript",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "PHP",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Scala",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Python",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "CSS",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "HTML",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Objective-C",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Java",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "XML",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "JSON",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "C",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "Assembly",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "C++",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "Ruby",
+      "fluency": "Elementary proficiency"
+    },
+    {
+      "language": "XSL",
+      "fluency": "Limited working proficiency"
+    },
+    {
+      "language": "Bash",
+      "fluency": "Limited working proficiency"
+    }
+  ],
+  "references": [
+    {
+      "name": "Andy Bossom - University for the Creative Arts",
+      "reference": "I can heartily recommend Colin. He is a conscientious, heard working, lateral thinking creative individual who would bring a lot to any project."
+    },
+    {
+      "name": "Alex Talbott - Yeovil Hospital NHS Foundation",
+      "reference": "I have worked with Colin on NHS Social Media, #nhssm (http://nhssm.org.uk), for the past 15 months. I can safely say that I am still yet to meet someone with a wider breadth and depth of IT and social media knowledge. Colin’s skills in programming across a host of different computer languages and ability to push the boundaries of what is already out there are only put in the shade by his ability to patiently and extremely clearly explain, in plain English, the impact IT and social media can have on all of us.     In my experience Colin is extremely capable in working with: php, HTML5, CSS, and the APIs of Twitter, Facebook, Google Maps and Foursquare and more.     Colin’s work on the #nhssm blog and chats are an example of what he is capable of in his spare time. His work on the St George’s NHS Trust annual report (see: http://www.stgeorges.nhs.uk/annual/default.asp) is groundbreaking and has raised the bar for all NHS Trusts across the UK."
+    },
+    {
+      "name": "Srdan Srepfler - Addison Global - The Creators of MoPlay",
+      "reference": "Colin is a jack of all trades, development, testing, in any language. Always switched on, attentive to details and the bigger picture. If there's a higher cause, even better!"
+    },
+    {
+      "name": "Monica Barten - Standard Chartered Bank",
+      "reference": "If you need someone who understands social media and is at the forefront of the industry, Colin is someone you can rely on.  He understands how it fits into the marketing mix and has very good ideas in how communicators can be using social media better."
+    },
+    {
+      "name": "Liz Woods - The Awareness Centre, Tooting",
+      "reference": "Colin effortlessly helps me and my team keep on top of developments in new media; we benefit hugely from his knowledge and expertise."
+    },
+    {
+      "name": "Tim Lloyd - Helpful Digital and the Social Simulator",
+      "reference": "Colin is a great colleague. He's driven and bright, and can explain complex technical ideas in a way that is interesting.    I've always found Colin to be reliable and considerate, and a champion of digital engagement in health and the NHS."
+    },
+    {
+      "name": "Suzanne Ruggles - FULL CIRCLE FUND THERAPIES",
+      "reference": "Colin established Full Circle Fund's online networking presence for fundraising events at St George's Healthcare Trust.  He's proactive, friendly, efficient and resourceful. Great to have his help and input."
+    },
+    {
+      "name": "Ali Richards - Acute Frailty",
+      "reference": "Colin is the moderator for a fantastic and successful chat on twitter, #nhssm. He is a role model of someone who is reaching out to create wider engagement for social media in the healthcare  community. By facilitating an online chat once a week Colin is creating a new community and network of people who can share best practice and support each other in social media."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Adding St George's Hospital's interior to Google Maps",
+      "startDate": "2013-06-01",
+      "summary": "Working with Google and the St George's Hospital drawing office I led the project to bring the interior of St George's Hospital to Google Maps, the first hospital in the UK to offer indoor maps.   The indoor mapping project allows for patients, visitors, the public and staff to navigate their way through St George's 14 hectare site. The maps show the wards, clinics, corridors and points of interest like shops, lifts, toilets for the seven floors at the hospital.  The project caught the interest of NHS Choices who then took the indoor mapping project across the NHS with around 60 Trusts taking part. I helped the NHS Choices team and wrote a couple of case study documents to help other Trusts take part.",
+      "url": "https://maps.google.co.uk/maps?q=st+george%27s+hospital+blackshaw+road&hl=en&ll=51.427263,-0.174054&spn=0.002244,0.005681&sll=53.800651,-4.064941&sspn=8.71341,23.269043&hq=st+george%27s+hospital+blackshaw+road&radius=15000&t=m&z=18"
+    },
+    {
+      "name": "Queen Mary's Hospital subsite on the St George's website",
+      "startDate": "2013-05-01",
+      "summary": "At short notice the team that I sit in were made aware of a CQUIN that involved creating a separate website for Queen Mary's Hospital in Roehampton as their existing website was to be taken down. CQUINs are one of the ways that NHS organisations get money so there was a lot at stake.   Within a month my colleague Mike and I had to make sure that all the content on the existing website, liaise with service managers to make sure all the content was up to date and rework the navigation on the website (which is all hand coded by myself, so no CMS options here) to allow for content to be available under both normal navigation and the subsites navigation.   This project also saw me attend meetings way above the scope that I would normally go to (my current position is fairly junior) as well as working very closely with senior members of the Queen Mary's team. The subsite was published on time and was well received by the Queen Mary's team and the GPs from who the CQUIN had come from.",
+      "url": "http://www.stgeorges.nhs.uk/queenmarysindex.asp"
+    },
+    {
+      "name": "Welcome to St George's Hospital iOS app",
+      "startDate": "2012-08-01",
+      "summary": "Working with the patient information team, patient reference groups and patient information groups I initiated a project to build an app that augmented the current Welcome to St George's Hospital booklet given out to patients when they visit St George's Hospital. The app added a searchable contact list, interactive map (with overlay of the map that is provided in the leaflet) and provided feedback mechanisms for patients and the public to send complaints and compliments about staff to the central PPI team.  The app has been downloaded 900 times as of June 2013 and a QR code has been added to all patient letters so that the app is available from the first interaction the patient has with the hospital.",
+      "url": "http://www.stgeorges.nhs.uk/patientapp.asp"
+    },
+    {
+      "name": "Clinical staff directory",
+      "startDate": "2012-08-01",
+      "summary": "I worked with the Marketing team to create a database driven version of their outpatient service directory. The clinical staff directory offers clinical staff a profile where they can put their contact details as well as their interests and awards. The directory is searchable via name, directory, speciality and will in the future be used to power other parts of the website.",
+      "url": "http://www.stgeorges.nhs.uk/services_clinicians.asp"
+    },
+    {
+      "name": "Outpatient appointment amendment form",
+      "startDate": "2011-08-01",
+      "summary": "I was asked by the outpatient department at St George's to add a way for patients to cancel or change the date of their appointment via the St George's website to help Did Not Attend (DNA) rates within the department.  I accomplished this by creating an interactive and thoroughly validated form that patients can fill out on the website. Once the patient has submitted their details the outpatient appointment team is then notified and contacts the patient to help them to arrange a new date or confirm the cancellation.  As part of the project I had to take on some server administration tasks like setting up SSL certificates and setting up redirects to that the form was only accessible via HTTPS so that all communications were encrypted.",
+      "url": "https://www.stgeorges.nhs.uk/patientoutpatientappointments.asp"
+    },
+    {
+      "name": "Digitising mandatory publications",
+      "startDate": "2011-06-01",
+      "summary": "As of 2011 St George's Healthcare NHS Trust publishes its Quality Account and Annual Reports online as separate microsites with a limited print run. This has saved the organisation around £5,000 in printing costs and has seen more people reading the documents than when they were printed.  Both publications are mandatory documents and show the public the quality of care that St George's delivers and the Trust's finances for the past year. By using web technologies to publish the documents it's helped to make them more accessible, increased availability and as of 2012 made the information easy to view on mobile devices.",
+      "url": "http://www.stgeorges.nhs.uk/quality/index.asp"
+    }
+  ]
+}
