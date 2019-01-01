@@ -4,6 +4,7 @@
   "description": "Colin Wren's Resume",
   "main": "index.js",
   "scripts": {
+    "compile": "hackmyresume build resume.json to out/resume.pdf -o hmr-options.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/Gimpneek/resume#readme",
   "dependencies": {
-    "hackmyresume": "^1.9.0-beta"
+    "hackmyresume": "^1.9.0-beta",
+    "wkhtmltopdf": "^0.3.4"
   }
 }
