@@ -6,41 +6,79 @@
     "brief": "Software Development Engineer in Test interested in Health tech, Augmented Reality and Open Source software. Very interested in Lean and Agile & building and working in great teams that build products that deliver the most value to the user through continuously improving quality and processes."
   },
   "contact": {
-    "email": "",
-    "phone": "",
-    "website": "colinwren.is/awesome"
+    "email": "colinfwren@gmail.com",
+    "website": "http://colinwren.is/awesome"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
     "modified": "2019-01-01T22:01:21.152Z"
   },
   "location": {
-    "city": "",
-    "region": "",
-    "country": "",
-    "code": "LS9 8AY",
-    "address": ""
+    "city": "Leeds",
+    "region": "West Yorkshire",
+    "country": "United Kingdom"
   },
   "employment": {
     "history": [
       {
         "position": "Test Automation Engineer",
         "employer": "BJSS",
-        "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place.   Then moving to Test Automation as they grow their global platform for new markets.  Technologies used: - JavaScript (ES6, EJS, Node) - React & Jest - PHP (Laravel, Lumen, PHPUnit) - Webdriver.io (WDIO) - webdriver-selenium - Docker - Gitlab & Gitlab Runners - Jenkins - Postman (and newman)",
+        "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place.   Then moving to Test Automation as they grow their global platform for new markets.",
         "current": true,
         "start": "2018-02-01",
-        "url": "",
-        "keywords": [],
-        "highlights": []
+        "keywords": [
+          "JavaScript",
+          "ES6",
+          "EJS",
+          "Node.js",
+          "React",
+          "Jest",
+          "PHP",
+          "Laravel",
+          "Lumen",
+          "PHPUnit",
+          "Webdriver.io (WDIO)",
+          "webdriver-selenium",
+          "Docker",
+          "Gitlab",
+          "Gitlab Runners",
+          "Jenkins",
+          "SonarQube",
+          "Postman",
+          "newman",
+          "Kafka",
+          "Java"
+        ],
+        "highlights": [
+          "Developing New Jersey Sports book betting platform",
+          "Building quality into process",
+          "Creating and executing test strategy for Kafka based streaming data adaptor"
+        ]
       },
       {
         "position": "Software Developer - LiveObs",
         "employer": "BJSS",
-        "summary": "Leading a team of three amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods.   Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.  Technology used - Odoo - Python - Selenium - Locust - JavaScript (CoffeeScript, jQuery, Karma, Jasmine) - Docker - GoCD - Sketch & Marvel (for UX mockups) - Github - Travis - Codacy",
+        "summary": "Leading a team of three amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods.   Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.",
         "start": "2016-04-01",
         "end": "2018-02-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Odoo",
+          "Python",
+          "Selenium",
+          "Locust",
+          "JavaScript",
+          "CoffeeScript",
+          "jQuery",
+          "Karma",
+          "Jasmine",
+          "Docker",
+          "GoCD",
+          "Sketch",
+          "Marvel",
+          "Github",
+          "Travis",
+          "Codacy"
+        ],
         "highlights": []
       },
       {
@@ -49,8 +87,13 @@
         "summary": "Leading a team of eight amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods. Co-ordinated the adoption of Scrum and Continuous delivery practices as well helped to build a culture of validated learning and knowledge sharing within the company. Conducted staff performance reviews, appraisals and one-to-ones as well as other managerial duties.",
         "start": "2015-04-01",
         "end": "2016-03-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Scrum",
+          "Continuous Delivery",
+          "Lean",
+          "Agile",
+          "Manager"
+        ],
         "highlights": []
       },
       {
@@ -59,8 +102,16 @@
         "summary": "Creating frontend for OpenERP/Odoo based electronic observation platform using Python, Coffeescript, D3.js and LESS. Also have some fun using Ansible, Bash, Scala and PhantomJS.",
         "start": "2014-07-01",
         "end": "2015-04-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Python",
+          "CoffeeScript",
+          "d3.js",
+          "LESS",
+          "Ansible",
+          "Bash",
+          "Scala",
+          "PhantomJS"
+        ],
         "highlights": []
       },
       {
@@ -69,8 +120,18 @@
         "summary": "A side project that will encompass all work I do outside of my day job at Neova Health.",
         "start": "2013-12-01",
         "end": "2016-01-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Django",
+          "Python",
+          "Windows Server 2008 R2",
+          "NHS",
+          "Android",
+          "iOS",
+          "Java",
+          "Objective-C",
+          "Apple Push Notification Service",
+          "Google Cloud Messaging"
+        ],
         "highlights": []
       },
       {
@@ -79,8 +140,15 @@
         "summary": "I make dynamic web and mobile interfaces using HTML5, CSS (LESS), Javascript and Play! framework in Scala for Miocare devices that run Tactix4's products utilising an open source development environment running Linux.",
         "start": "2013-11-01",
         "end": "2014-07-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "HTML5",
+          "LESS",
+          "CSS",
+          "JavaScript",
+          "Play!",
+          "Scala",
+          "Linux"
+        ],
         "highlights": []
       },
       {
@@ -89,8 +157,17 @@
         "summary": "Working with NHS Somerset, the New Economics Foundation and AttDigital I was commissioned to design and develop an app for Android and iOS that helps user to keep track of their wellbeing and helps them set activities that will increase it.  The app was built using Apache Cordova (formerly PhoneGap) to give the app an even playing field across both platforms as due to the project timeframe and also that I was still working my 9-5 job there was a very limited amount of time. The app runs on HTML, CSS3 and JavaScript using plugins to use the devices local storage, SQLite database and to fire the local notifications which remind the user to do the activities they set.  While doing this project I increased my knowledge of PhoneGap / Cordova and updated a number of widely used plugins to use the newest version of Cordova.  Now doing my app / web work under the Datarrgh Apps name",
         "start": "2013-05-01",
         "end": "2013-12-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "New Economics Foundation",
+          "5 Ways to Wellbeing",
+          "Android",
+          "iOS",
+          "Cordova",
+          "PhoneGap",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "highlights": []
       },
       {
@@ -99,8 +176,11 @@
         "summary": "Organising weekly #nhssm twitter chat, chairing the chats and managing the nhssm Twitter account. Creating the nhssm blog and the technical aspects of running nhssm. Sharing my knowledge of the technical side of social media with the nhssm group and provide easy to understand tutorials on how to do advanced social media tasks.",
         "start": "2010-08-01",
         "end": "2016-01-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Social Media",
+          "Wordpress",
+          "PHP"
+        ],
         "highlights": []
       },
       {
@@ -109,173 +189,107 @@
         "summary": "I worked as a Web Developer and Designer in the Communications Unit at St George's Healthcare NHS Trust. As well as maintaining the Trust's website and developing new features for the website I also managed the Trust's Social Media accounts.   My work with St George's Healthcare's Social Media accounts has been mentioned in the Financial Times and the Guardian Healthcare Network blog. I also lead a project that saw St George's Hospital become the first UK hospital to offer interior maps on Google Maps as well as redesigned and redeveloped the St George's Healthcare website.",
         "start": "2010-05-01",
         "end": "2013-11-01",
-        "url": "",
-        "keywords": [],
-        "highlights": []
-      },
-      {
-        "position": "Web Designer and Developer",
-        "employer": "Moya Hogarth",
-        "summary": "I made a website for a local artist, Moya Hogarth. I was tasked with taking her existing web site and making it more dynamic and existing while keeping it elegant at the same time. I worked closely with Moya to create a website that met her needs. From Design to completion the website took 2 months, I was a University at the time so I wasn't able to spend much time on development.",
-        "start": "2008-02-01",
-        "end": "2008-03-01",
-        "url": "",
-        "keywords": [],
-        "highlights": []
-      },
-      {
-        "position": "Bar Associate",
-        "employer": "JD Wetherspoon",
-        "summary": "I worked on the Bar at the Edward Rayne in Raynes Park. Working in a pub allowed me to learn how to read people so I can create an instant rapport with them. Something that has helped immensely in later life.",
-        "start": "2007-02-01",
-        "end": "2010-04-01",
-        "url": "",
-        "keywords": [],
+        "keywords": [
+          "Classic ASP",
+          "VB.Net",
+          "Social Media",
+          "Google Indoor Mapping",
+          "SQL Server 2008 R2"
+        ],
         "highlights": []
       }
     ]
   },
   "education": {
-    "level": "",
+    "level": "Bachelor's Degree",
     "history": [
       {
-        "institution": "",
+        "institution": "Thames Valley University",
         "start": "2006-01-01",
         "end": "2009-01-01",
-        "grade": "",
+        "grade": "First",
         "curriculum": [],
-        "summary": "",
-        "area": "",
+        "summary": "Achieved a First using Augmented Reality in an artistic context",
+        "area": "Digital Art Specialist",
         "studyType": "BA (Hons)"
-      },
-      {
-        "institution": "",
-        "start": "2004-01-01",
-        "end": "2006-01-01",
-        "grade": "",
-        "curriculum": [],
-        "summary": "",
-        "area": "",
-        "studyType": "A Levels"
-      },
-      {
-        "institution": "Bishopsford Community School",
-        "start": "2000-01-01",
-        "end": "2004-01-01",
-        "grade": "",
-        "curriculum": [],
-        "summary": "",
-        "area": "",
-        "studyType": ""
       }
     ]
   },
   "skills": {
     "sets": [
       {
-        "name": "Accessibility",
-        "level": "",
-        "skills": []
+        "name": "Front-end Development",
+        "level": "master",
+        "skills": [
+          "CSS",
+          "HTML",
+          "JavaScript",
+          "Chrome Developer Tools"
+        ]
+      },
+      {
+        "name": "Back-end Development",
+        "level": "advanced",
+        "skills": [
+          "Python",
+          "Django",
+          "Flask",
+          "Odoo",
+          "Node",
+          "EJS",
+          "LDAP",
+          "Active Directory",
+          "Docker",
+          "Amazon Web Services",
+          "Heroku"
+        ]
       },
       {
         "name": "Social Media",
-        "level": "",
-        "skills": []
+        "level": "intermediate",
+        "skills": [
+          "Twitter",
+          "Facebook Pages",
+          "Instagram",
+          "Discord"
+        ]
       },
       {
-        "name": "SEO",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Project Planning",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "PHP",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "iPhone Application Development",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Webservice design",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Web Content Management",
-        "level": "",
-        "skills": []
+        "name": "Mobile Application Development",
+        "level": "intermediate",
+        "skills": [
+          "Objective-C",
+          "Java",
+          "Cordova",
+          "Google Cloud Messaging",
+          "Apple Push Notification Service",
+          "TestFlight"
+        ]
       },
       {
         "name": "Healthcare",
-        "level": "",
-        "skills": []
+        "level": "intermediate",
+        "skills": [
+          "NHS Trust level"
+        ]
       },
       {
-        "name": "Graphic Design",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Twitter",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Mobile Phone Apps",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Social Networking",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "HTML 5",
-        "level": "",
-        "skills": []
+        "name": "UX",
+        "level": "intermediate",
+        "skills": [
+          "Sketch",
+          "Marvel",
+          "User Interviews"
+        ]
       },
       {
         "name": "JavaScript",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "HTML",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "HTML5",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Blogging",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Change Management",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Content Management",
-        "level": "",
-        "skills": []
-      },
-      {
-        "name": "Web Development",
-        "level": "",
-        "skills": []
+        "level": "advanced",
+        "skills": [
+          "React",
+          "jQuery",
+          "Node.js"
+        ]
       }
     ]
   },
@@ -300,6 +314,18 @@
       "label": "Twitter",
       "network": "Twitter",
       "url": "https://twitter.com/colinwren",
+      "user": "colinwren"
+    },
+    {
+      "label": "Github",
+      "network": "Github",
+      "url": "https://github.com/Gimpneek",
+      "user": "Gimpneek"
+    },
+    {
+      "label": "Medium",
+      "network": "Medium",
+      "url": "https://medium.com/@colinwren",
       "user": "colinwren"
     }
   ],
@@ -357,74 +383,6 @@
     {
       "language": "English",
       "fluency": "Native or bilingual proficiency"
-    },
-    {
-      "language": "SQL",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Javascript",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "PHP",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Scala",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Python",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "CSS",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "HTML",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Objective-C",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "Java",
-      "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "XML",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "JSON",
-      "fluency": "Professional working proficiency"
-    },
-    {
-      "language": "C",
-      "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "Assembly",
-      "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "C++",
-      "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "Ruby",
-      "fluency": "Elementary proficiency"
-    },
-    {
-      "language": "XSL",
-      "fluency": "Limited working proficiency"
-    },
-    {
-      "language": "Bash",
-      "fluency": "Limited working proficiency"
     }
   ]
 }
