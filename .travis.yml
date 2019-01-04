@@ -7,3 +7,9 @@ before_install:
   - npm install -g npm@latest
 script:
   - npm run analyze
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  on:
+    tags: true
+    all_branches: false
