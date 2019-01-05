@@ -11,6 +11,7 @@ script:
 deploy:
   provider: script
   script: bash scripts/deploy.sh
+  skip_cleanup: true
   on:
     tags: true
     all_branches: false
