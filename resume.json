@@ -19,13 +19,16 @@
     "country": "United Kingdom"
   },
   "employment": {
+    "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 6 months working in Test Automation",
     "history": [
       {
         "position": "Test Automation Engineer",
         "employer": "BJSS",
-        "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place.   Then moving to Test Automation as they grow their global platform for new markets.",
+        "url": "https://bjss.com",
+        "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place. Then moving to Test Automation as they grow their global platform for new markets.",
         "current": true,
         "start": "2018-02-01",
+        "location": "Leeds, West Yorkshire, United Kingdom",
         "keywords": [
           "JavaScript",
           "ES6",
@@ -41,7 +44,7 @@
           "webdriver-selenium",
           "Docker",
           "Gitlab",
-          "Gitlab Runners",
+          "Gitlab CI Runners",
           "Jenkins",
           "SonarQube",
           "Postman",
@@ -50,17 +53,21 @@
           "Java"
         ],
         "highlights": [
-          "Developing New Jersey Sports book betting platform",
-          "Building quality into process",
+          "Built continuous delivery pipelines with Gitlab CI Runners, Jenkins and customers cloud solution",
+          "Developing New Jersey Sports book betting platform with Node.js",
+          "Re-architecting & Refactoring automated test tooling and working with existing test team to set and enforce development standards",
+          "Building quality into process by working with development team to set and meet agreed standards",
           "Creating and executing test strategy for Kafka based streaming data adaptor"
         ]
       },
       {
         "position": "Software Developer - LiveObs",
         "employer": "BJSS",
-        "summary": "Leading a team of three amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods.   Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.",
+        "summary": "Working within a team of four to continue the work I did at my previous job but in an enterprise setting. Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.",
         "start": "2016-04-01",
         "end": "2018-02-01",
+        "location": "Leeds, West Yorkshire, United Kingdom",
+        "url": "https://openeobs.org/",
         "keywords": [
           "Odoo",
           "Python",
@@ -79,7 +86,14 @@
           "Travis",
           "Codacy"
         ],
-        "highlights": []
+        "highlights": [
+          "Building automated test tooling and continuous delivery pipeline that utilised automated tests to catch issues before deployment",
+          "Built continuous delivery pipeline using ThoughtWork's GoCD, Docker and Amazon's ECS",
+          "Worked with Product Owner and Tester to collect, validate and document customer's requirements using validated learning techniques",
+          "Refactored and Re-architected complex mission critical SQL code to improve performance, readability of the code and knowledge of the code's intent",
+          "Worked with customer's IT team on site to set up integration with their Active Directory (via Odoo's LDAP module) and the Hospital's Patient Administration System to update patient's status in LiveObs in real-time",
+          "Worked with team to set standards throughout the Software Development Life Cycle"
+        ]
       },
       {
         "position": "Software Development Manager",
@@ -87,6 +101,8 @@
         "summary": "Leading a team of eight amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods. Co-ordinated the adoption of Scrum and Continuous delivery practices as well helped to build a culture of validated learning and knowledge sharing within the company. Conducted staff performance reviews, appraisals and one-to-ones as well as other managerial duties.",
         "start": "2015-04-01",
         "end": "2016-03-01",
+        "url": "https://openeobs.org/",
+        "location": "London, United Kingdom",
         "keywords": [
           "Scrum",
           "Continuous Delivery",
@@ -94,14 +110,24 @@
           "Agile",
           "Manager"
         ],
-        "highlights": []
+        "highlights": [
+          "Working with junior developers to unlock their potential and mentor them on software development practices",
+          "Bringing a validated learning culture into the companies management structure via UX tools and techniques and User Story mapping",
+          "Adopting Scrum and Continous Delivery to remove bottlenecks the development team were having",
+          "Interviewing candidates and building a team of talented developers, testers and UX practictioners",
+          "Performance managing team members who were not performing as well as they could to ensure that both the business and themselves were happy with the job they were doing",
+          "Working with the Managing Director of the company, who didn't want to let go of their DevOps responsiblities to creating provisioning scripts and tools to allow the team to carry out deployments and remove the bottleneck he caused",
+          "Working with the Managing Director of the company, who was also the Product Owner to think User Centrically instead of just pressing forward with the ideas he thought would solve problems he perceived them as having"
+        ]
       },
       {
         "position": "Frontend Developer",
         "employer": "Neova Health",
-        "summary": "Creating frontend for OpenERP/Odoo based electronic observation platform using Python, Coffeescript, D3.js and LESS. Also have some fun using Ansible, Bash, Scala and PhantomJS.",
-        "start": "2014-07-01",
+        "summary": "Creating responsive frontend for OpenERP/Odoo based Open Source mobile electronic patient observation platform using Python, Coffeescript, D3.js and LESS. Built a custom reporting module for Odoo to print reports with PhantomJS.",
+        "start": "2013-11-01",
         "end": "2015-04-01",
+        "url": "https://openeobs.org/",
+        "location": "London, United Kingdom",
         "keywords": [
           "Python",
           "CoffeeScript",
@@ -112,14 +138,21 @@
           "Scala",
           "PhantomJS"
         ],
-        "highlights": []
+        "highlights": [
+          "Build responsive mobile frontend for Open-eObs an electronic patient observation platform build on Odoo - a Python ERP framework",
+          "Built a custom reporting module for Odoo that allowed us to the leverage the PhantomJS instead of the standard WKHTMLtoPDF Odoo ships with",
+          "Built interactive NEWS Observation charts using CoffeeScript and D3.js",
+          "Created a RESTful API on top of Odoo which used XML-RPC as standard",
+          "Create a templating engine for rendering forms easily within the custom web controllers we built on top of Odoo's HTTP server"
+        ]
       },
       {
         "position": "Director",
         "employer": "Datarrgh Apps",
-        "summary": "A side project that will encompass all work I do outside of my day job at Neova Health.",
+        "summary": "Built a patient safety messaging platform for St George's Hospital's Patient Safety Manager to use to communicate effectively with staff.",
         "start": "2013-12-01",
         "end": "2016-01-01",
+        "location": "London, United Kingdom",
         "keywords": [
           "Django",
           "Python",
@@ -132,31 +165,21 @@
           "Apple Push Notification Service",
           "Google Cloud Messaging"
         ],
-        "highlights": []
-      },
-      {
-        "position": "Front End Developer",
-        "employer": "Tactix4",
-        "summary": "I make dynamic web and mobile interfaces using HTML5, CSS (LESS), Javascript and Play! framework in Scala for Miocare devices that run Tactix4's products utilising an open source development environment running Linux.",
-        "start": "2013-11-01",
-        "end": "2014-07-01",
-        "keywords": [
-          "HTML5",
-          "LESS",
-          "CSS",
-          "JavaScript",
-          "Play!",
-          "Scala",
-          "Linux"
-        ],
-        "highlights": []
+        "highlights": [
+          "Built native iOS and Android apps to provide hospital staff with updates on patient safety issues",
+          "Built patient safety messaging platform using Django for hospital's Patient Safety Manager to send updates on patient safety issues",
+          "Worked with client's IT team to test their Airwatch MDM solution",
+          "Worked with client's IT and finance teams to set up their enterprise iOS licenses",
+          "Worked with Patient Safety Manager and clinical staff to define requirements and test the product delivered value"
+        ]
       },
       {
         "position": "App developer",
         "employer": "Self Employed",
-        "summary": "Working with NHS Somerset, the New Economics Foundation and AttDigital I was commissioned to design and develop an app for Android and iOS that helps user to keep track of their wellbeing and helps them set activities that will increase it.  The app was built using Apache Cordova (formerly PhoneGap) to give the app an even playing field across both platforms as due to the project timeframe and also that I was still working my 9-5 job there was a very limited amount of time. The app runs on HTML, CSS3 and JavaScript using plugins to use the devices local storage, SQLite database and to fire the local notifications which remind the user to do the activities they set.  While doing this project I increased my knowledge of PhoneGap / Cordova and updated a number of widely used plugins to use the newest version of Cordova.  Now doing my app / web work under the Datarrgh Apps name",
+        "summary": "Working with NHS Somerset, the New Economics Foundation and AttDigital I was commissioned to design and develop an app for Android and iOS that helps user to keep track of their wellbeing and helps them set activities that will increase it. The app was built using Apache Cordova (formerly PhoneGap) to give the app an even playing field across both platforms as due to the project timeframe and also that I was still working my 9-5 job there was a very limited amount of time. The app runs on HTML, CSS3 and JavaScript using plugins to use the devices local storage, SQLite database and to fire the local notifications which remind the user to do the activities they set. While doing this project I increased my knowledge of PhoneGap / Cordova and updated a number of widely used plugins to use the newest version of Cordova.",
         "start": "2013-05-01",
         "end": "2013-12-01",
+        "location": "London, United Kingdom",
         "keywords": [
           "New Economics Foundation",
           "5 Ways to Wellbeing",
@@ -168,11 +191,53 @@
           "CSS",
           "JavaScript"
         ],
-        "highlights": []
+        "highlights": [
+          "Working with NHS Somerset and the New Economics Foundation to bring the 5 ways of wellbeing to Android and iOS devices",
+          "Used Apache Cordova to create Android and iOS apps using a single website source",
+          "Built additional functionality in Java and Objective-C to enhance database functionality on both Android and iOS platforms",
+          "Working with NHS Somerset's IT team to create a RESTful API to collect anonymised user activity data",
+          "Working with NHS Somerset to compile anonymised user activity data into charts to show NHS England the impact the app had"
+        ]
       },
       {
-        "position": "Joint Chair and Technology Specialist",
-        "employer": "nhssm",
+        "position": "New Media Officer",
+        "employer": "St George's Healthcare NHS Trust",
+        "summary": "I worked as a Web Developer and Designer in the Communications Unit at St George's Healthcare NHS Trust. As well as maintaining the Trust's website and developing new features for the website I also managed the Trust's Social Media accounts. My work with St George's Healthcare's Social Media accounts has been mentioned in the Financial Times and the Guardian Healthcare Network blog. I also lead a project that saw St George's Hospital become the first UK hospital to offer interior maps on Google Maps as well as redesigned and redeveloped the St George's Healthcare website.",
+        "start": "2010-05-01",
+        "end": "2013-11-01",
+        "url": "https://stgeorges.nhs.uk",
+        "location": "London, United Kingdom",
+        "keywords": [
+          "Classic ASP",
+          "VB.Net",
+          "Social Media",
+          "JavaScript",
+          "jQuery"
+          "Google Indoor Mapping",
+          "SQL Server 2008 R2",
+          "iOS",
+          "Objective-C",
+          "PHP",
+          "Wordpress"
+        ],
+        "highlights": [
+          "Brought indoor mapping to St George's Hospital via Google Indoor Maps - the first hospital in the UK to have this. This required co-ordnation with senior staff on both the St George's Healthcare NHS Trust and St George's University sides of St George's Hospital",
+          "Built an iOS app to compliment existing hospital leaflets and enhanced the functionality via interactive elements such as maps and search functioanlity",
+          "Redesigned the St George's Healthcare NHS Trust website - built custom Wordpress plugins to allow better mapping functionality on pages",
+          "Awarded Young Achiever of the Year by Corporate Communications for my work enhancing St George's patient information with digital tools",
+          "Built a web app to help the patient information officer to organise, audit and update the patient information leaflets the hospital provided",
+          "Worked with the hospital's marketing team to add an interactive consultant directory to the St George's Hospital website",
+          "Assisted in the migration of the St George's website from an old legacy server to a newer one"
+        ]
+      }
+    ]
+  },
+  "affiliation": {
+    "history": [
+      {
+        "category": "meetup",
+        "role": "Joint Chair and Technology Specialist",
+        "organization": "nhssm",
         "summary": "Organising weekly #nhssm twitter chat, chairing the chats and managing the nhssm Twitter account. Creating the nhssm blog and the technical aspects of running nhssm. Sharing my knowledge of the technical side of social media with the nhssm group and provide easy to understand tutorials on how to do advanced social media tasks.",
         "start": "2010-08-01",
         "end": "2016-01-01",
@@ -183,21 +248,6 @@
         ],
         "highlights": []
       },
-      {
-        "position": "New Media Officer",
-        "employer": "St George's Healthcare NHS Trust",
-        "summary": "I worked as a Web Developer and Designer in the Communications Unit at St George's Healthcare NHS Trust. As well as maintaining the Trust's website and developing new features for the website I also managed the Trust's Social Media accounts.   My work with St George's Healthcare's Social Media accounts has been mentioned in the Financial Times and the Guardian Healthcare Network blog. I also lead a project that saw St George's Hospital become the first UK hospital to offer interior maps on Google Maps as well as redesigned and redeveloped the St George's Healthcare website.",
-        "start": "2010-05-01",
-        "end": "2013-11-01",
-        "keywords": [
-          "Classic ASP",
-          "VB.Net",
-          "Social Media",
-          "Google Indoor Mapping",
-          "SQL Server 2008 R2"
-        ],
-        "highlights": []
-      }
     ]
   },
   "education": {
@@ -215,6 +265,294 @@
       }
     ]
   },
+  "projects": [
+    {
+      "title": "Digitising mandatory publications",
+      "category": "private",
+      "description": "As of 2011 St George's Healthcare NHS Trust publishes its Quality Account and Annual Reports online as separate microsites with a limited print run. This has saved the organisation around £5,000 in printing costs and has seen more people reading the documents than when they were printed. Both publications are mandatory documents and show the public the quality of care that St George's delivers and the Trust's finances for the past year. By using web technologies to publish the documents it's helped to make them more accessible, increased availability and as of 2012 made the information easy to view on mobile devices.",
+      "summary": "Moved St George's mandatory publications from print to websites and saved the organisation around £10,000 a year",
+      "role": "Web Developer",
+      "url": "http://www.stgeorges.nhs.uk/quality/index.asp",
+      "start" :"2011-01-01",
+      "end": "2011-06-01",
+      "highlights": [
+        "Saved organisation £10,000 a year in printing costs",
+        "Made mandatory publications into websites"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Classic ASP",
+        "NHS"
+      ]
+    },
+    {
+      "title": "Outpatient appointment amendment form",
+      "category": "private",
+      "description": "I was asked by the outpatient department at St George's to add a way for patients to cancel or change the date of their appointment via the St George's website to help Did Not Attend (DNA) rates within the department. I accomplished this by creating an interactive and thoroughly validated form that patients can fill out on the website. Once the patient has submitted their details the outpatient appointment team is then notified and contacts the patient to help them to arrange a new date or confirm the cancellation. As part of the project I had to take on some server administration tasks like setting up SSL certificates and setting up redirects to that the form was only accessible via HTTPS so that all communications were encrypted.",
+      "summary": "Helped reduce Did Not Attend (DNA) rates for appointments at St George's Hospital's outpatient department by adding an appointment amendment form to the St George's Website.",
+      "role": "Web Developer",
+      "url": "https://www.stgeorges.nhs.uk/patientoutpatientappointments.asp",
+      "start" :"2011-05-01",
+      "end": "2011-08-01",
+      "highlights": [
+        "Reduced Did Not Attend (DNA) rates for outpatient appointments"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Classic ASP",
+        "NHS"
+      ]
+    },
+    {
+      "title": "Welcome to St George's Hospital iOS app",
+      "category": "private",
+      "description": "Working with the patient information team, patient reference groups and patient information groups I initiated a project to build an app that augmented the current Welcome to St George's Hospital booklet given out to patients when they visit St George's Hospital. The app added a searchable contact list, interactive map (with overlay of the map that is provided in the leaflet) and provided feedback mechanisms for patients and the public to send complaints and compliments about staff to the central PPI team. The app has been downloaded 900 times as of June 2013 and a QR code has been added to all patient letters so that the app is available from the first interaction the patient has with the hospital.",
+      "summary": "Created an iOS app to enhance the existing leaflet given to patients attending appointments at St George's Hospital",
+      "role": "App Developer",
+      "url": "http://www.stgeorges.nhs.uk/patientapp.asp",
+      "start" :"2012-01-01",
+      "end": "2012-08-01",
+      "highlights": [
+        "Created an iOs app to enhance the existing leaflet given to patients",
+        "Used MapKit to create an interactive version of the map used to signpost around St George's",
+        "App was added to header of patient leaflets and downloaded 900 in a year",
+        "App was featured in local newspaper"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "iOS",
+        "Objective-C",
+        "MapKit",
+        "NHS"
+      ]
+    },
+    {
+      "title": "Clinical staff directory",
+      "category": "private",
+      "description": "I worked with the Marketing team to create a database driven version of their outpatient service directory. The clinical staff directory offers clinical staff a profile where they can put their contact details as well as their interests and awards. The directory is searchable via name, directory, speciality and will in the future be used to power other parts of the website.",
+      "summary": "Created a searchable clinical staff directory to help advertise St George's expertise",
+      "role": "Web Developer",
+      "url": "http://www.stgeorges.nhs.uk/services_clinicians.asp",
+      "start" :"2012-01-01",
+      "end": "2012-08-01",
+      "highlights": [
+        "Created a searchable clinical staff directory for St George's Hospital"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Classic ASP",
+        "NHS"
+      ]
+    },
+    {
+      "title": "Queen Mary's Hospital subsite on the St George's website",
+      "category": "private",
+      "description": "At short notice the team that I sit in were made aware of a CQUIN that involved creating a separate website for Queen Mary's Hospital in Roehampton as their existing website was to be taken down. CQUINs are one of the ways that NHS organisations get money so there was a lot at stake. Within a month my colleague Mike and I had to make sure that all the content on the existing website, liaise with service managers to make sure all the content was up to date and rework the navigation on the website (which is all hand coded by myself, so no CMS options here) to allow for content to be available under both normal navigation and the subsites navigation. This project also saw me attend meetings way above the scope that I would normally go to (my current position is fairly junior) as well as working very closely with senior members of the Queen Mary's team. The subsite was published on time and was well received by the Queen Mary's team and the GPs from who the CQUIN had come from.",
+      "summary": "Helped Queen Mary's Hospital meet a CQUIN target at short notice",
+      "role": "Web Developer",
+      "url": "http://www.stgeorges.nhs.uk/queenmarysindex.asp",
+      "start" :"2013-03-01",
+      "end": "2013-05-01",
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Classic ASP",
+        "NHS"
+      ]
+    },
+    {
+      "title": "Adding St George's Hospital's interior to Google Maps",
+      "category": "private",
+      "description": "Working with Google and the St George's Hospital drawing office I led the project to bring the interior of St George's Hospital to Google Maps, the first hospital in the UK to offer indoor maps. The indoor mapping project allows for patients, visitors, the public and staff to navigate their way through St George's 14 hectare site. The maps show the wards, clinics, corridors and points of interest like shops, lifts, toilets for the seven floors at the hospital. The project caught the interest of NHS Choices who then took the indoor mapping project across the NHS with around 60 Trusts taking part. I helped the NHS Choices team and wrote a couple of case study documents to help other Trusts take part.",
+      "summary": "Added St George's Hospital's interior to Google Maps becoming the first UK hospital to do so.",
+      "role": "Project Manager",
+      "url": "https://maps.google.co.uk/maps?q=st+george%27s+hospital+blackshaw+road&hl=en&ll=51.427263,-0.174054&spn=0.002244,0.005681&sll=53.800651,-4.064941&sspn=8.71341,23.269043&hq=st+george%27s+hospital+blackshaw+road&radius=15000&t=m&z=18",
+      "start" :"2012-04-01",
+      "end": "2013-06-01",
+      "highlights": [
+        "Co-ordinated both NHS and University sides of St George's Hospital to bring indoor mapping",
+        "Worked with NHS Choices to get other trusts in the UK to add their interiors to Google Maps",
+        "Maps were covered in local newspaper and in the evening standard"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Project Management",
+        "NHS",
+        "Google Maps"
+      ]
+    },
+    {
+      "title": "Augmented Reality installation",
+      "category": "university",
+      "description": "As part of my end of year exhibition I created an Augmented Reality environment with the use of ARKit, Quartz Composer and 3 Apple iMacs",
+      "summary": "Used Augmented Reality to create a virtual environment in the exhibition space",
+      "role": "Artist",
+      "url": "https://vimeo.com/4447593",
+      "start" :"2008-06-01",
+      "end": "2009-06-01",
+      "highlights": [
+        "Achieved First for my Augmented Reality piece",
+        "Featured in Local News Paper"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Augmented Reality",
+        "ARKit",
+        "Quartz Composer"
+      ]
+    },
+    {
+      "title": "eslint-plugin-cucumber",
+      "category": "open-source",
+      "description": "Contributed no-arrow-functions rule to eslint-plugin-cucumber to help people catch use of arrow functions in cucumber steps",
+      "summary": "Contributed no-arrow-functions rule to eslint-plugin-cucumber",
+      "role": "contributor",
+      "url": "https://github.com/darrinholst/eslint-plugin-cucumber",
+      "repo": "https://github.com/darrinholst/eslint-plugin-cucumber",
+      "start" :"2018-09-01",
+      "end": "2018-09-01",
+      "highlights": [
+        "Added rule to help my team and others using the eslint rule"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Javascript",
+        "Cucumber",
+        "Node.js",
+        "ESLint"
+      ]
+    },
+    {
+      "title": "NHClinical",
+      "category": "open-source",
+      "description": "Main contributor to NHClinical, NeovaHealth's clinical mapping library for their Open-eObs product.",
+      "summary": "Main contributor to NHClinical, NeovaHealth's clinical mapping library for their Open-eObs product.",
+      "role": "contributor",
+      "url": "https://github.com/openeobs/nhclinical",
+      "repo": "https://github.com/openeobs/nhclinical",
+      "start" :"2013-11-01",
+      "end": "2018-02-01",
+      "highlights": [
+        "Lead a team of 8 development staff",
+        "Refactored and Re-architected complex mission critical SQL code to improve performance, readability of the code and knowledge of the code's intent",
+        "Worked with customer's IT team on site to set up integration with their Active Directory (via Odoo's LDAP module) and the Hospital's Patient Administration System to update patient's status in LiveObs in real-time",
+        "Worked with team to set standards throughout the Software Development Life Cycle"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Odoo",
+        "Python",
+        "NHS",
+        "Healthcare",
+      ]
+    },
+    {
+      "title": "Open-eObs",
+      "category": "open-source",
+      "description": "Main contributor to Open-eObs, NeovaHealth's electronic patient observation product.",
+      "summary": "Main contributor to Open-eObs, NeovaHealth's electronic patient observation product.",
+      "role": "contributor",
+      "url": "https://github.com/openeobs",
+      "repo": "https://github.com/openeobs/openeobs",
+      "start" :"2013-11-01",
+      "end": "2018-02-01",
+      "highlights": [
+        "Building automated test tooling and continuous delivery pipeline that utilised automated tests to catch issues before deployment",
+        "Built continuous delivery pipeline using ThoughtWork's GoCD, Docker and Amazon's ECS",
+        "Worked with Product Owner and Tester to collect, validate and document customer's requirements using validated learning techniques",
+        "Refactored and Re-architected complex mission critical SQL code to improve performance, readability of the code and knowledge of the code's intent",
+        "Worked with customer's IT team on site to set up integration with their Active Directory (via Odoo's LDAP module) and the Hospital's Patient Administration System to update patient's status in LiveObs in real-time",
+        "Worked with team to set standards throughout the Software Development Life Cycle"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Odoo",
+        "Python",
+        "Selenium",
+        "Locust",
+        "JavaScript",
+        "CoffeeScript",
+        "jQuery",
+        "Karma",
+        "Jasmine",
+        "Docker",
+        "GoCD",
+        "Sketch",
+        "Marvel",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    },
+    {
+      "title": "Patient Flow",
+      "category": "open-source",
+      "description": "Contributor to Patient Flow, a patient referral workflow management system for Open-eObs - NeovaHealth's electronic patient observation product.",
+      "summary": "Contributor to Patient Flow, a patient referral workflow management system",
+      "role": "contributor",
+      "url": "https://github.com/NeovaHealth/patientflow",
+      "media": [
+        {
+          "category": "",
+          "name": "",
+          "url": ""
+        }
+      ],
+      "repo": "https://github.com/NeovaHealth/patientflow",
+      "start" :"2014-11-01",
+      "end": "2016-02-01",
+      "highlights": [
+        "Designed forms for data entry"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Odoo",
+        "Python",
+        "JavaScript",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    },
+    {
+      "title": "Open-eObs Automation",
+      "category": "open-source",
+      "description": "Main contributor to Automated tests for Open-eObs - NeovaHealth's electronic patient observation product.",
+      "summary": "Main contributor to Automated tests for Open-eObs",
+      "role": "contributor",
+      "url": "https://github.com/openeobs/openeobs-automation",
+      "media": [
+        {
+          "category": "Source Code",
+          "name": "Open-eObs Automation",
+          "url": "https://github.com/openeobs/openeobs-automation"
+        },
+        {
+          "category": "Source Code",
+          "name": "Open-eObs Selenium",
+          "url": "https://github.com/openeobs/BJSS_liveobs_selenium",
+        }
+      ],
+      "repo": "https://github.com/openeobs/openeobs-automation",
+      "start" :"2014-11-01",
+      "end": "2018-02-01",
+      "highlights": [
+        "Created selenium based Page Object Model library for automation",
+        "Used Behave to automate tests against Open-eObs frontend"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Odoo",
+        "Python",
+        "Selenium",
+        "Locust",
+        "Docker",
+        "GoCD",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    }
+  ],
   "skills": {
     "sets": [
       {
