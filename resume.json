@@ -212,7 +212,7 @@
           "VB.Net",
           "Social Media",
           "JavaScript",
-          "jQuery"
+          "jQuery",
           "Google Indoor Mapping",
           "SQL Server 2008 R2",
           "iOS",
@@ -247,7 +247,7 @@
           "PHP"
         ],
         "highlights": []
-      },
+      }
     ]
   },
   "education": {
@@ -442,7 +442,7 @@
         "Odoo",
         "Python",
         "NHS",
-        "Healthcare",
+        "Healthcare"
       ]
     },
     {
@@ -529,7 +529,7 @@
         {
           "category": "Source Code",
           "name": "Open-eObs Selenium",
-          "url": "https://github.com/openeobs/BJSS_liveobs_selenium",
+          "url": "https://github.com/openeobs/BJSS_liveobs_selenium"
         }
       ],
       "repo": "https://github.com/openeobs/openeobs-automation",
