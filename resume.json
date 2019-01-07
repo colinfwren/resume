@@ -1008,5 +1008,82 @@
       "url": "http://content.yudu.com/Library/A1w44i/NursinginPracticeMar/resources/29.htm",
       "summary": "Article covers the use of social media by nurses, the available networks and how it can improve healthcare"
     }
+  ],
+  "speaking": [
+    {
+      "title": "Social Media and patient information",
+      "event": "The Internet Informed Patient Symposium",
+      "location": "Cambridge University",
+      "date": "2011",
+      "keywords": [
+        "Social Media",
+        "NHS"
+      ],
+      "summary": "Delivered talk on how patients are using social media to understand and talk about their conditions to clinicians at Cambridge University"
+    },
+    {
+      "title": "Continuous Integration, TDD & Living Documentation",
+      "event": "Odoo Experience 2015",
+      "location": "Belgium",
+      "date": "2011",
+      "keywords": [
+        "Odoo",
+        "Python",
+        "Continuous Integration",
+        "Test Driven Development",
+        "Living Documentation"
+      ],
+      "summary": "Delivered talk about CI, TDD and Living Documentation. Slides here: https://www.slideshare.net/settingsshtml/continuous-integration-tdd-living-documentation-odoo-experience-2015"
+    },
+    {
+      "title": "NHS App Development",
+      "event": "eHealth Insider Conference",
+      "location": "Birmingham NEC",
+      "date": "2013",
+      "keywords": [
+        "NHS",
+        "App Development",
+        "Android",
+        "iOS"
+      ],
+      "summary": "Delivered talk about how the NHS is using and developing apps."
+    },
+    {
+      "title": "Social Media for patient engagement",
+      "event": "Gastroenterology Conference",
+      "location": "Birmingham NEC",
+      "date": "2012",
+      "keywords": [
+        "NHS",
+        "Social Media"
+      ],
+      "summary": "Delivered talk about how patient's are using social media and how NHS trust can engage with them online."
+    },
+    {
+      "title": "Building Shared Understanding with storybook",
+      "event": "BJSS Lunch and Learn",
+      "location": "Leeds",
+      "date": "2018",
+      "keywords": [
+        "Web Components",
+        "JavaScript",
+        "React.js",
+        "Storybook"
+      ],
+      "summary": "Delivered talk about how storybook.js can be used to build shared understanding between UX, Development and Test"
+    },
+    {
+      "title": "HipTest for managing BDD",
+      "event": "BJSS Lunch and Learn",
+      "location": "Leeds",
+      "date": "2018",
+      "keywords": [
+        "BDD",
+        "Gherkin",
+        "Cucumber",
+        "Selenium"
+      ],
+      "summary": "Delivered talk about how HipTest can help with writing feature files"
+    }
   ]
 }
