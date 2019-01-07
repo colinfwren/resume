@@ -551,6 +551,181 @@
         "Travis",
         "Codacy"
       ]
+    },
+    {
+      "title": "Odoo Mocks",
+      "category": "open-source",
+      "description": "Main contributor to Odoo Mocks a project to record the test performance from the different ways of using test data in Odoo",
+      "summary": "Main contributor to Odoo Mocks",
+      "role": "contributor",
+      "url": "https://github.com/Gimpneek/odoo_mocks",
+      "media": [
+        {
+          "category": "Source Code",
+          "name": "Odoo Mocks",
+          "url": "https://github.com/Gimpneek/odoo_mocks"
+        },
+        {
+          "category": "Blog post",
+          "name": "Blog post about Odoo Mocks Project",
+          "url": "https://medium.com/@colinwren/patching-out-registries-in-odoo-tests-v8-46405bc5a22c"
+        }
+      ],
+      "repo": "https://github.com/Gimpneek/odoo_mocks",
+      "start" :"2015-06-01",
+      "end": "2015-06-01",
+      "highlights": [
+        "Created experiment to show the different timings of mocking techniques in Odoo"
+      ],
+      "location": "London, United Kingdom",
+      "keywords": [
+        "Odoo",
+        "Python"
+      ]
+    },
+    {
+      "title": "Midi Visualisation in Python",
+      "category": "open-source",
+      "description": "Main contributor to midivis a project to visualise data in .midi files",
+      "summary": "Main contributor to midivis",
+      "role": "contributor",
+      "url": "https://github.com/Gimpneek/midivis",
+      "media": [
+        {
+          "category": "Source Code",
+          "name": "midivis",
+          "url": "https://github.com/Gimpneek/midivis"
+        },
+        {
+          "category": "Blog post",
+          "name": "Blog post about midivis Project",
+          "url": "https://medium.com/@colinwren/visualising-midi-files-with-python-b221feacd762"
+        }
+      ],
+      "repo": "https://github.com/Gimpneek/midivis",
+      "start" :"2017-03-01",
+      "end": "2017-03-01",
+      "highlights": [
+        "Created experiment to visualise data from .midi files"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Midi",
+        "Python"
+      ]
+    },
+    {
+      "title": "Leeds Pokemon Go Raid Tracker",
+      "category": "open-source",
+      "description": "Main contributor to Leeds Pokemon Go Raid Tracker, a tool to help Pokemon Go players track the raids against gyms in Leeds and by doing so increase their chance of an EX Raid",
+      "summary": "Main contributor to Leeds Pokemon Go Raid Tracker",
+      "role": "contributor",
+      "url": "https://github.com/Gimpneek/exclusive-raid-gym-tracker",
+      "media": [
+        {
+          "category": "Source Code",
+          "name": "midivis",
+          "url": "https://github.com/Gimpneek/exclusive-raid-gym-tracker"
+        },
+        {
+          "category": "Blog post",
+          "name": "Blog post about Pokemon Go Raid Tracker",
+          "url": "https://medium.com/@colinwren/lessons-learned-from-building-a-pokemon-go-raid-tracker-bca8a69fb36"
+        }
+      ],
+      "repo": "https://github.com/Gimpneek/exclusive-raid-gym-tracker",
+      "start" :"2017-12-01",
+      "end": "2018-06-01",
+      "highlights": [
+        "Created tool to help Pokemon Go players get EX Raids",
+        "Worked with local player base to create tool",
+        "Set up continous delivery pipeline with Heroku",
+        "Used UX techniques to build a system that made it easier for players to see which raids were more valuable to attend"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Pokemon Go",
+        "Python",
+        "Django",
+        "React.js",
+        "Heroku",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    },
+    {
+      "title": "PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
+      "category": "open-source",
+      "description": "Main contributor to PoGoSnap, a social media platform for sharing Pokemon Go Augmented Reality images",
+      "summary": "Main contributor to PoGoSnap",
+      "role": "contributor",
+      "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "media": [
+        {
+          "category": "Source Code",
+          "name": "Web Components for PoGoSnap",
+          "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components"
+        },
+        {
+          "category": "Source Code",
+          "name": "React.js frontend for PoGoSnap",
+          "url": "https://github.com/Gimpneek/PoGoSnap-Web"
+        },
+        {
+          "category": "Source Code",
+          "name": "Django based backend for PoGoSnap",
+          "url": "https://github.com/Gimpneek/PoGoSnap-API"
+        },
+        {
+          "category": "Blog post",
+          "name": "Blog post about using storybook.js as part of building PoGoSnap",
+          "url": "https://medium.com/@colinwren/using-storybook-to-build-shared-understanding-e70dfe3208d2"
+        }
+      ],
+      "repo": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "start" :"2018-01-01",
+      "highlights": [
+        "Created tool to help Pokemon Go players share their Augmented Reality images",
+        "Worked with local player base to create tool",
+        "Set up continous delivery pipeline with Heroku",
+        "Used UX techniques to build a system that made it easier for players create collections of their Augmented Reality images"
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Pokemon Go",
+        "Python",
+        "Django",
+        "React.js",
+        "Heroku",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    },
+    {
+      "title": "realbrowserlocusts",
+      "category": "open-source",
+      "description": "Contributor to realbrowserlocusts, a locust plugin that allows for selenium webdriver to be driven by locust - a python load testing tool",
+      "summary": "Contributor to realbrowserlocusts",
+      "role": "contributor",
+      "url": "https://github.com/nickboucart/realbrowserlocusts",
+      "repo": "https://github.com/nickboucart/realbrowserlocusts",
+      "start" :"2017-06-01",
+      "end": "2017-06-01",
+      "highlights": [
+        "Moved realbrowserlocusts to Python 3",
+        "Added static code analysis tools and build pipeline to project",
+      ],
+      "location": "Leeds, United Kingdom",
+      "keywords": [
+        "Python",
+        "Locust",
+        "Selenium",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
     }
   ],
   "skills": {
