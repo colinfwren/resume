@@ -715,7 +715,7 @@
       "end": "2017-06-01",
       "highlights": [
         "Moved realbrowserlocusts to Python 3",
-        "Added static code analysis tools and build pipeline to project",
+        "Added static code analysis tools and build pipeline to project"
       ],
       "location": "Leeds, United Kingdom",
       "keywords": [
@@ -757,7 +757,7 @@
       {
         "name": "Test Automation",
         "level": "advanced",
-        "summary": "Writing Gherkin features to describe the behaviour of the product, Automated browser testing of Gherkin with Python, Selenium and Sauce Labs, Using Allure to add test meta data to unit, integration and end-to-end test runs",
+        "summary": "Writing Gherkin features to describe the behaviour of the product, Automated browser testing of Gherkin with Python, Selenium and Sauce Labs, Using Allure to add test meta data to unit,  integration and end-to-end test runs",
         "years": 5
       }
     ],
@@ -841,7 +841,7 @@
           "Node.js",
           "Jest",
           "Jasmine",
-          "Karma",
+          "Karma"
         ]
       },
       {
