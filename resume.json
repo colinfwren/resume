@@ -258,7 +258,16 @@
         "start": "2006-01-01",
         "end": "2009-01-01",
         "grade": "First",
-        "curriculum": [],
+        "highlights": [
+          "Achieved a first",
+          "Built an Augmented Reality exhibition piece",
+          "Built a chatbot for my design for simulation module"
+        ],
+        "keywords": [
+          "Augmented Reality",
+          "Python",
+          "3D Animation"
+        ],
         "summary": "Achieved a First using Augmented Reality in an artistic context",
         "area": "Digital Art Specialist",
         "studyType": "BA (Hons)"
@@ -861,22 +870,6 @@
       }
     ]
   },
-  "writing": [
-    {
-      "title": "Social networking for nurses",
-      "publisher": "Nursing in Practice",
-      "url": "http://content.yudu.com/Library/A1w44i/NursinginPracticeMar/resources/29.htm",
-      "date": "2012-03-20",
-      "summary": "Article covers the use of social media by nurses, the available networks and how it can improve healthcare"
-    },
-    {
-      "title": "An issue of confidence: social media for nurses and midwives",
-      "publisher": "Guardian Healthcare Network",
-      "url": "http://www.guardian.co.uk/healthcare-network/2012/feb/21/issue-confidence-social-media-training",
-      "date": "2012-02-21",
-      "summary": "Confidentiality is key when dealing with patients on digital networks and formal training should be required, explains Colin Wren"
-    }
-  ],
   "social": [
     {
       "label": "Twitter",
@@ -900,49 +893,49 @@
   "testimonials": [
     {
       "name": "Andy Bossom - University for the Creative Arts",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "I can heartily recommend Colin. He is a conscientious, heard working, lateral thinking creative individual who would bring a lot to any project.",
       "private": false
     },
     {
       "name": "Alex Talbott - Yeovil Hospital NHS Foundation",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "I have worked with Colin on NHS Social Media, #nhssm (http://nhssm.org.uk), for the past 15 months. I can safely say that I am still yet to meet someone with a wider breadth and depth of IT and social media knowledge. Colin’s skills in programming across a host of different computer languages and ability to push the boundaries of what is already out there are only put in the shade by his ability to patiently and extremely clearly explain, in plain English, the impact IT and social media can have on all of us.     In my experience Colin is extremely capable in working with: php, HTML5, CSS, and the APIs of Twitter, Facebook, Google Maps and Foursquare and more.     Colin’s work on the #nhssm blog and chats are an example of what he is capable of in his spare time. His work on the St George’s NHS Trust annual report (see: http://www.stgeorges.nhs.uk/annual/default.asp) is groundbreaking and has raised the bar for all NHS Trusts across the UK.",
       "private": false
     },
     {
       "name": "Srdan Srepfler - Addison Global - The Creators of MoPlay",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "Colin is a jack of all trades, development, testing, in any language. Always switched on, attentive to details and the bigger picture. If there's a higher cause, even better!",
       "private": false
     },
     {
       "name": "Monica Barten - Standard Chartered Bank",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "If you need someone who understands social media and is at the forefront of the industry, Colin is someone you can rely on.  He understands how it fits into the marketing mix and has very good ideas in how communicators can be using social media better.",
       "private": false
     },
     {
       "name": "Liz Woods - The Awareness Centre, Tooting",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "Colin effortlessly helps me and my team keep on top of developments in new media; we benefit hugely from his knowledge and expertise.",
       "private": false
     },
     {
       "name": "Tim Lloyd - Helpful Digital and the Social Simulator",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "Colin is a great colleague. He's driven and bright, and can explain complex technical ideas in a way that is interesting.    I've always found Colin to be reliable and considerate, and a champion of digital engagement in health and the NHS.",
       "private": false
     },
     {
       "name": "Suzanne Ruggles - FULL CIRCLE FUND THERAPIES",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "Colin established Full Circle Fund's online networking presence for fundraising events at St George's Healthcare Trust.  He's proactive, friendly, efficient and resourceful. Great to have his help and input.",
       "private": false
     },
     {
       "name": "Ali Richards - Acute Frailty",
-      "flavor": "professional",
+      "category": "professional",
       "quote": "Colin is the moderator for a fantastic and successful chat on twitter, #nhssm. He is a role model of someone who is reaching out to create wider engagement for social media in the healthcare  community. By facilitating an online chat once a week Colin is creating a new community and network of people who can share best practice and support each other in social media.",
       "private": false
     }
@@ -951,6 +944,69 @@
     {
       "language": "English",
       "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "disposition": {
+    "travel": 10,
+    "commitment": [
+      "permanent",
+      "full-time"
+    ],
+    "remote": true,
+    "relocation": {
+      "willing": true,
+      "destinations": [
+        "Northern Europe",
+        "Canada",
+        "New Zealand"
+      ]
+    }
+  },
+  "recognition": [
+    {
+      "category": "award",
+      "title": "Scraper of the weekend",
+      "date": "2012-05-01",
+      "from": "ScraperWiki",
+      "summary": "Won Scraper of the weekend at NHS HackDay. Awarded by ScraperWiki for the best use of their scraping tools to power the project I was working on during the event."
+    },
+    {
+      "category": "award",
+      "title": "Runner up - NHS web technology audit",
+      "date": "2013-01-01",
+      "from": "NHS Hackday",
+      "summary": "The NHS web technology audit scraped 167 acute NHS Trust websites and built an overall picture of the technologies in use across the acute web portfolio."
+    },
+    {
+      "category": "award",
+      "title": "Young Achiever of the Year",
+      "date": "2013-11-01",
+      "from": "Corporate Communications Magazine",
+      "summary": "Nominated by St George's (with an excellent nomination letter penned by Mike Frame) for my work over year building and launching the Welcome to St George's Hospital app, the indoor maps project I did with Google for the hospital (first hospital in the UK to offer indoor maps) and my work redeveloping the St George's website."
+    }
+  ],
+  "writing": [
+    {
+      "title": "An issue of confidence: social media for nurses and midwives",
+      "category": "article",
+      "publisher": {
+        "name": "Guardian Healthcare Network",
+        "url": "http://www.guardian.co.uk"
+      },
+      "date": "2012-02-21",
+      "url": "http://www.guardian.co.uk/healthcare-network/2012/feb/21/issue-confidence-social-media-training",
+      "summary": "Confidentiality is key when dealing with patients on digital networks and formal training should be required, explains Colin Wren"
+    },
+    {
+      "title": "Social networking for nurses",
+      "category": "article",
+      "publisher": {
+        "name": "Nursing in Practice",
+        "url": "https://www.nursinginpractice.com/"
+      },
+      "date": "2012-03-20",
+      "url": "http://content.yudu.com/Library/A1w44i/NursinginPracticeMar/resources/29.htm",
+      "summary": "Article covers the use of social media by nurses, the available networks and how it can improve healthcare"
     }
   ]
 }
