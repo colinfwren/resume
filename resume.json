@@ -729,6 +729,38 @@
     }
   ],
   "skills": {
+    "list": [
+      {
+        "name": "Python",
+        "level": "advanced",
+        "summary": "Five years Python experience (Odoo, Django, Flask, Python 2 & 3, Nose, PyTest)",
+        "years": 5
+      },
+      {
+        "name": "JavaScript",
+        "level": "master",
+        "summary": "9 years Javascript experience (jQuery, React & Redux, PouchDB, Backbone.js, CoffeeScript, Karma, Jasmine, Jest, Gulp, Enzyme, Webpack)",
+        "years": 9
+      },
+      {
+        "name": "Native Mobile App Development",
+        "level": "intermediate",
+        "summary": "Native app development for iOS & Android (Objective-C, Swift, Java, Cordova)",
+        "years": 2
+      },
+      {
+        "name": "DevOps",
+        "level": "intermediate",
+        "summary": "Continous Delivery, Docker, AWS",
+        "years": 3
+      },
+      {
+        "name": "Test Automation",
+        "level": "advanced",
+        "summary": "Writing Gherkin features to describe the behaviour of the product, Automated browser testing of Gherkin with Python, Selenium and Sauce Labs, Using Allure to add test meta data to unit, integration and end-to-end test runs",
+        "years": 5
+      }
+    ],
     "sets": [
       {
         "name": "Front-end Development",
@@ -754,7 +786,9 @@
           "Active Directory",
           "Docker",
           "Amazon Web Services",
-          "Heroku"
+          "Heroku",
+          "PHP",
+          "Java"
         ]
       },
       {
@@ -783,7 +817,10 @@
         "name": "Healthcare",
         "level": "intermediate",
         "skills": [
-          "NHS Trust level"
+          "NHS Trust level",
+          "Patient Administration System integration",
+          "HL7",
+          "FHIR"
         ]
       },
       {
@@ -801,7 +838,25 @@
         "skills": [
           "React",
           "jQuery",
-          "Node.js"
+          "Node.js",
+          "Jest",
+          "Jasmine",
+          "Karma",
+        ]
+      },
+      {
+        "name": "Test Automation",
+        "level": "advanced",
+        "skills": [
+          "Selenium",
+          "Cucumber",
+          "Gherkin",
+          "Spec",
+          "Locust",
+          "Jira",
+          "HipTest",
+          "Rest Assured",
+          "JUnit"
         ]
       }
     ]
