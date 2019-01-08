@@ -11,6 +11,8 @@ before_install:
 script:
   - npm run analyze
   - npm run compile
+  - sleep 20
+  - ls out
 deploy:
   provider: script
   script: bash scripts/deploy.sh
