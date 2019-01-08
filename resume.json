@@ -1085,5 +1085,318 @@
       ],
       "summary": "Delivered talk about how HipTest can help with writing feature files"
     }
+  ],
+  "interests": [
+    {
+      "name": "Augmented Reailty",
+      "summary": "I have an interest in Augmented Reailty and it's application in gaming, healthcare and enhancing existing tools",
+      "keywords": [
+        "Augmented Reality",
+        "Gaming",
+        "Healthcare",
+        "iOS",
+        "Web",
+        "Android",
+        "Pokemon Go"
+      ]
+    },
+    {
+      "name": "Music",
+      "summary": "I have an interest in Music and play guitar (mostly death metal) and Gameboy (chiptune)",
+      "keywords": [
+        "Music",
+        "MIDI",
+        "Gaming",
+        "Chiptune",
+        "Guitar"
+      ]
+    },
+    {
+      "name": "User Experience",
+      "summary": "I have an interest in UX and using UX techniques throughout the SDLC to deliver value",
+      "keywords": [
+        "User Experience",
+        "Validated Learning",
+        "Value"
+      ]
+    },
+    {
+      "name": "Data Visualisation",
+      "summary": "I have an interest in data visualisation, especially with it's application in healthcare, and software quality metrics",
+      "keywords": [
+        "Data Visualisation",
+        "Design",
+        "Quality"
+      ]
+    },
+    {
+      "name": "Travelling",
+      "summary": "I'm a keen traveller and always up for trekking the globe, trying new experiences and meeting new people",
+      "keywords": [
+        "travel",
+        "life experiences",
+        "networking",
+        "Growth"
+      ]
+    },
+    {
+      "name": "Pokemon Go",
+      "summary": "I play Pokemon Go and have built a number of tools to help players get the most out of the game. Images I have taken using the games AR camera mode have been published on a number of websites. I run the Leeds Pokemon Go player group and working with my fellow admins have managed to grow the group to be the biggest in the UK.",
+      "keywords": [
+        "Gaming",
+        "Augmented Reality",
+        "Pokemon Go"
+      ]
+    }
+  ],
+  "extracurricular": [
+    {
+      "title": "Odoo Experience 2015",
+      "activity": "Attended and spoke at Odoo Experience 2015",
+      "location": "Belgium",
+      "start": "2015",
+      "end": "2015"
+    },
+    {
+      "title": "Ansible Conference",
+      "activity": "Attended Ansible conference in 2016",
+      "location": "London",
+      "start": "2016",
+      "end": "2016"
+    },
+    {
+      "title": "PostgreSQL Day 2015",
+      "activity": "Attended PostgreSQL Day 2016",
+      "location": "London",
+      "start": "2015",
+      "end": "2015"
+    },
+    {
+      "title": "#nhssm - NHS Social Media",
+      "activity": "Facilitated and grew the weekly #nhssm twitter chats for 2 years",
+      "location": "online",
+      "start": "2011",
+      "end": "2013"
+    }
+  ],
+  "references": [
+    {
+      "name": "Rob Dyke",
+      "role": "Managing Director, NeovaHealth",
+      "category": "professional",
+      "private": false,
+      "contact": [
+        {
+          "label": "Email",
+          "category": "email",
+          "value": "robdyke@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Dave Livesey",
+      "role": "Head of Delivery, BJSS",
+      "category": "professional",
+      "private": false,
+      "contact": [
+        {
+          "label": "Email",
+          "category": "email",
+          "value": "dave.livesey@bjss.com"
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "title": "Odoo Mocks Experiment",
+      "summary": "Experimenting with different techniques of mocking data in Odoo's test framework",
+      "url": "https://github.com/Gimpneek/odoo_mocks",
+      "date": "2015",
+      "highlights": [
+        "Created an experiment to show the impact of using different mocking techniques in Odoo"
+      ],
+      "keywords": [
+        "Python",
+        "Odoo",
+        "Testing"
+      ]
+    },
+    {
+      "title": "PoGoSnap - Backend API",
+      "summary": "API for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
+      "url": "https://github.com/Gimpneek/PoGoSnap-API",
+      "date": "2018",
+      "highlights": [
+        "Created a Swagger document to act as a contract while developing the API - https://app.swaggerhub.com/apis/colinwren/PoGoSnap",
+        "Created a Continous Delivery pipeline with Github, Travis and Heroku",
+        "Used Django REST Framework to create API",
+        "Used Django REST Framework Social oAuth to allow Instagram logins"
+      ],
+      "keywords": [
+        "Python",
+        "Django",
+        "Continous Delivery",
+        "Heroku",
+        "Swagger",
+        "Travis"
+      ]
+    },
+    {
+      "title": "PoGoSnap - Web Frontend",
+      "summary": "Web Frontend for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
+      "url": "https://github.com/Gimpneek/PoGoSnap-Web",
+      "date": "2018",
+      "highlights": [
+        "Used Storybook.js to create stories of user journeys through the app - https://gimpneek.github.io/PoGoSnap-Web/",
+        "Created a web frontend with React.js, Bulma.io, Redux, Redux-saga, JWT, Instagram oAuth"
+      ],
+      "keywords": [
+        "JavaScript",
+        "React.js",
+        "Storybook.js",
+        "Jest",
+        "Redux",
+        "Redux-Saga",
+        "JSON Web Token"
+      ]
+    },
+    {
+      "title": "PoGoSnap - Web Components",
+      "summary": "Web Components for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
+      "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "date": "2018",
+      "highlights": [
+        "Used Storybook.js to create an interactive component guide - https://gimpneek.github.io/PoGoSnap-Web-Components",
+        "Published Web Components to npm for use in Web frontend - https://www.npmjs.com/package/pogosnap-web-components",
+        "Used Jest Snapshot testing to test component with different states"
+      ],
+      "keywords": [
+        "JavaScript",
+        "React.js",
+        "Storybook.js",
+        "Jest",
+        "Snapshot Testing"
+      ]
+    },
+    {
+      "title": "Leeds Pokemon Go Raid Tracker",
+      "summary": "Pokemon Go Raid Tracker for Leeds, UK player group",
+      "url": "https://github.com/Gimpneek/raid-tracker-frontend",
+      "date": "2017",
+      "highlights": [
+        "Created a BDD Automation suite to test app",
+        "Worked with local player base to present Pokemon Go Raid information in a way optimised for targetting EX Raid eligble gyms",
+        "Worked with a Pokemon Go Maps provider to provide real time raid information to users",
+        "Worked with a Pokemon Go Maps provider to process Open Street Map data to see which gyms were in parks (which made them eligble for EX Raids)"
+      ],
+      "keywords": [
+        "Python",
+        "Django",
+        "React.js",
+        "Github",
+        "Travis",
+        "Codacy",
+        "Pyup.io",
+        "Heroku",
+        "Continous Delivery",
+        "BDD",
+        "TDD",
+        "API",
+        "Swagger"
+      ]
+    },
+    {
+      "title": "Midi data visualisation",
+      "summary": "Created a project to process MIDI files and visualise them in matplotlib",
+      "url": "https://github.com/Gimpneek/midivis",
+      "date": "2017",
+      "highlights": [
+        "worked with MIDI data to visualise tempo and note changes"
+      ],
+      "keywords": [
+        "Python",
+        "MIDI"
+      ]
+    },
+    {
+      "title": "Open-eObs",
+      "summary": "Open-eObs is an electronic mobile patient observation platform for use in healthcare",
+      "url": "https://github.com/openeobs",
+      "date": "2016",
+      "highlights": [
+        "Building automated test tooling and continuous delivery pipeline that utilised automated tests to catch issues before deployment",
+        "Built continuous delivery pipeline using ThoughtWork's GoCD, Docker and Amazon's ECS",
+        "Refactored and Re-architected complex mission critical SQL code to improve performance, readability of the code and knowledge of the code's intent",
+        "Worked with customer's IT team on site to set up integration with their Active Directory (via Odoo's LDAP module) and the Hospital's Patient Administration System to update patient's status in LiveObs in real-time",
+        "Worked with team to set standards throughout the Software Development Life Cycle",
+        "Working with the Managing Director of the company, who didn't want to let go of their DevOps responsiblities to creating provisioning scripts and tools to allow the team to carry out deployments and remove the bottleneck he caused",
+        "Build responsive mobile frontend for Open-eObs an electronic patient observation platform build on Odoo - a Python ERP framework",
+        "Built a custom reporting module for Odoo that allowed us to the leverage the PhantomJS instead of the standard WKHTMLtoPDF Odoo ships with",
+        "Built interactive NEWS Observation charts using CoffeeScript and D3.js",
+        "Created a RESTful API on top of Odoo which used XML-RPC as standard",
+        "Create a templating engine for rendering forms easily within the custom web controllers we built on top of Odoo's HTTP server"
+      ],
+      "keywords": [
+        "Odoo",
+        "Python",
+        "Selenium",
+        "Locust",
+        "JavaScript",
+        "CoffeeScript",
+        "jQuery",
+        "Karma",
+        "Jasmine",
+        "Docker",
+        "GoCD",
+        "Sketch",
+        "Marvel",
+        "Github",
+        "Travis",
+        "Codacy"
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "title": "The Phoenix Project",
+      "category": "book",
+      "url": "https://www.amazon.co.uk/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO",
+      "author": "Gene Kim",
+      "date": "2013",
+      "summary": "The Phoenix Project changed the way I viewed development and formed my value driven opinions"
+    },
+    {
+      "title": "Head First Design Patterns",
+      "category": "book",
+      "url": "http://shop.oreilly.com/product/9780596007126.do",
+      "author": "Bert Bates, Kathy Sierra, Eric Freeman, Elisabeth Robson",
+      "date": "2017",
+      "summary": "Reading this book helped me to improve my knowledge of design patterns"
+    },
+    {
+      "title": "Continous Delivery: Reliable Software Releases throught Build, Test and Deployment Automation",
+      "category": "book",
+      "url": "https://www.amazon.co.uk/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912",
+      "author": "Jez Humble",
+      "date": "2015",
+      "summary": "Reading this book re-enforced my views on tracking and delivering value throughout the SLDC"
+    },
+    {
+      "title": "Building Microservices",
+      "category": "book",
+      "url": "https://www.amazon.co.uk/Building-Microservices-Sam-Newman/dp/1491950358/ref=sr_1_1?ie=UTF8&qid=1546975355&sr=8-1&keywords=sam+newman+microservices",
+      "author": "Sam Newman",
+      "date": "2016",
+      "summary": "Reading this book taught me about context boundaries, DevOps and Semantic Monitoring"
+    },
+    {
+      "title": "Agile Testing: A Practical Guide For Testers and Agile Teams",
+      "category": "book",
+      "url": "https://www.amazon.co.uk/dp/0321534468/ref=asc_df_032153446857927489/?tag=googshopuk-21&creative=22110&creativeASIN=0321534468&linkCode=df0&hvadid=310819191513&hvpos=1o1&hvnetw=g&hvrand=18131643836601877505&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9046321&hvtargid=pla-435493356184&th=1&psc=1",
+      "author": "Lisa Crispin",
+      "date": "2018",
+      "summary": "Reading this book re-enforced my views on test driven development and the role that test plays in agile delivery"
+    }
   ]
 }
