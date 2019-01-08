@@ -1,5 +1,11 @@
 {
   "theme": "modern",
   "debug": true,
-  "pdf": "phantomjs"
+  "pdf": "wkhtmltopdf",
+  "wkhtmltopdf": {
+    "margin-top": "20mm",
+    "page-size": "A3",
+    "orientation": "portrait",
+    "title": "Colin Wren's CV"
+  }
 }
