@@ -5,6 +5,9 @@ before_install:
   - npm cache verify
   - npm cache clean --force
   - npm install -g npm@latest
+  - wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb # http://wkhtmltopdf.org/downloads.html, travis uses ubuntu 12.04 http://docs.travis-ci.com/user/installing-dependencies/#Installing-Ubuntu-packages
+  - sudo dpkg -i wkhtmltox_0.12.5-1.xenial_amd64.deb || echo "That is okay that there are errors in the command"
+  - sudo apt-get -f -y install
 script:
   - npm run analyze
   - npm run compile
