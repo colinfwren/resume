@@ -11,6 +11,7 @@ script:
   - npm run analyze
   - npm run createCVHTML
   - npm run createCVPDF
+  - npm run createResumeHTML
   - sleep 20
   - ls out
 deploy:
