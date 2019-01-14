@@ -1,0 +1,170 @@
+{
+  "name": "Colin Wren",
+  "info": {
+    "label": "Test Automation Engineer at BJSS",
+    "image": "",
+    "brief": "User focused developer with a passion for building well designed, well tested products and crafting amazing experiences."
+  },
+  "contact": {
+    "email": "colinfwren@gmail.com",
+    "website": "http://colinwren.is/awesome"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2019-01-01T22:01:21.152Z"
+  },
+  "location": {
+    "city": "Leeds",
+    "region": "West Yorkshire",
+    "country": "United Kingdom"
+  },
+  "employment": {
+    "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 6 months working in Test Automation",
+    "history": [
+      {
+        "position": "Software Developer",
+        "employer": "BJSS",
+        "summary": "Working within a team of four to continue the work I did at my previous job but in an enterprise setting. Working with Python and JavaScript to help shape the way that hospitals run wards and care for patients, while ensuring the product met the needs of the user by using validated learning techniques, TDD and BDD.",
+        "start": "2016-04-01",
+        "location": "Leeds, West Yorkshire, United Kingdom",
+        "url": "https://openeobs.org/",
+        "keywords": [
+          "Odoo",
+          "Python",
+          "Selenium",
+          "Locust",
+          "JavaScript",
+          "CoffeeScript",
+          "jQuery",
+          "Karma",
+          "Jasmine",
+          "Docker",
+          "GoCD",
+          "Sketch",
+          "Marvel",
+          "Github",
+          "Travis",
+          "Codacy"
+        ],
+        "highlights": [
+          "Worked with global betting brand to bring their current online offering to the USA",
+          "Worked with NHS mental health trusts to design and develop a version of Open-eObs that met their specific needs",
+          "Built automated test suite and integrated it into team’s continuous delivery pipeline",
+          "Converted Vagrant based solution to use Docker and Amazon Web Services",
+          "Worked with client and business to ensure that team was delivering value",
+          "Created mockups and worked with users to validate ideas and current functionality"
+        ]
+      },
+      {
+        "position": "Developer / Team Lead",
+        "employer": "Neova Health",
+        "summary": "Leading a team of eight amazing people to create high quality software with a focus on delivering value to our users via Lean and Agile methods. Co-ordinated the adoption of Scrum and Continuous delivery practices as well helped to build a culture of validated learning and knowledge sharing within the company. Conducted staff performance reviews, appraisals and one-to-ones as well as other managerial duties.",
+        "start": "2015-04-01",
+        "end": "2016-03-01",
+        "url": "https://openeobs.org/",
+        "location": "London, United Kingdom",
+        "keywords": [
+          "Scrum",
+          "Continuous Delivery",
+          "Lean",
+          "Agile",
+          "Manager"
+        ],
+        "highlights": [
+          "Lead a team of eight developers, testers and UX practioners",
+          "Worked with managing directors to deliver and increase quality of product",
+          "Created mobile frontend for Open-eObs, a mobile application used by frontline NHS staff to submit patient observations using Odoo - a Python powered ERP system"
+        ]
+      },
+      {
+        "position": "New Media Officer",
+        "employer": "St George's Healthcare NHS Trust",
+        "summary": "I worked as a Web Developer and Designer in the Communications Unit at St George's Healthcare NHS Trust. As well as maintaining the Trust's website and developing new features for the website I also managed the Trust's Social Media accounts. My work with St George's Healthcare's Social Media accounts has been mentioned in the Financial Times and the Guardian Healthcare Network blog. I also lead a project that saw St George's Hospital become the first UK hospital to offer interior maps on Google Maps as well as redesigned and redeveloped the St George's Healthcare website.",
+        "start": "2010-05-01",
+        "end": "2013-11-01",
+        "url": "https://stgeorges.nhs.uk",
+        "location": "London, United Kingdom",
+        "keywords": [
+          "Classic ASP",
+          "VB.Net",
+          "Social Media",
+          "JavaScript",
+          "jQuery",
+          "Google Indoor Mapping",
+          "SQL Server 2008 R2",
+          "iOS",
+          "Objective-C",
+          "PHP",
+          "Wordpress"
+        ],
+        "highlights": [
+          "Worked with Google to map the indoors of St George's Hospital - the largest Hospital in London",
+          "Created unique mobile friendly websites for the trust's mandatory publications, saving £6,000 per publication"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "Bachelor's Degree",
+    "history": [
+      {
+        "institution": "Thames Valley University",
+        "start": "2006-09-01",
+        "end": "2009-07-01",
+        "grade": "First",
+        "highlights": [
+          "Achieved a first",
+          "Built an Augmented Reality exhibition piece",
+          "Built a chatbot for my design for simulation module"
+        ],
+        "keywords": [
+          "Augmented Reality",
+          "Python",
+          "3D Animation"
+        ],
+        "summary": "Achieved a First using Augmented Reality in an artistic context",
+        "area": "Digital Art Specialist",
+        "studyType": "BA (Hons)"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Software Development",
+        "level": "master",
+        "skills": [
+          "Five years Python experience (Odoo, Django, Flask, Python 2 & 3, Nose, PyTest)",
+          "7 years Javascript experience (jQuery, React & Redux, PouchDB, Backbone.js, CoffeeScript, Karma, Jasmine, Jest, Gulp, Enzyme, Webpack)",
+          "Native app development for iOS & Android",
+          "Styleguide generate with LESS & KSS",
+          "Continuous Delivery with Github, Travis & Heroku"
+        ]
+      },
+      {
+        "name": "Product Development",
+        "level": "advanced",
+        "skills": [
+          "Product Discovery using validated learning techniques and UX principles to better understand the domain and user groups",
+          "User Story mapping to build Portfolio and Product Backlogs",
+          "Working with stake-holders to cut User Story Map into release slices",
+          "Backlog grooming and sprint planning to ensure work items meet definition of ready with Product Owner and QA",
+          "Leading a development team using either Scrum or Kanban to deliver product increments and value to the user",
+          "User engagement to get feedback on released functionality and update backlog"
+        ]
+      },
+      {
+        "name": "Quality Assurance",
+        "level": "intermediate",
+        "skills": [
+          "Writing Gherkin features to describe the behaviour of the product",
+          "Automated browser testing of Gherkin with Python, Selenium and Sauce Labs",
+          "Using SonarQube to inspect quality of the code base and drive quality improvements",
+          "Using Allure to add test meta data to unit, integration and end-to-end test runs",
+          "Load testing with Locust.io",
+          "Artifact based Continuous Delivery with Docker, GOCD and Amazon Web Services"
+        ]
+      }
+    ]
+  }
+}

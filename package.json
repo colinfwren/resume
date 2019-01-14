@@ -4,7 +4,8 @@
   "description": "Colin Wren's Resume",
   "main": "index.js",
   "scripts": {
-    "compile": "hackmyresume build resume.json to out/resume.pdf -o hmr-options.json",
+    "createCVHTML": "hackmyresume build cv.json to out/cv.html -t ./node_modules/fresh-themes/themes/colinwren",
+    "createCVPDF": "node scripts/print-with-puppeteer.js",
     "analyze": "hackmyresume analyze resume.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,7 +30,7 @@
   "homepage": "https://github.com/Gimpneek/resume#readme",
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
-    "jsonresume-theme-elite": "^1.1.2",
-    "wkhtmltopdf": "^0.3.4"
+    "fresh-themes": "Gimpneek/fresh-themes#feature/colinwren",
+    "puppeteer": "^1.11.0"
   }
 }
