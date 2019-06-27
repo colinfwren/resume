@@ -22,7 +22,7 @@
     "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 6 months working in Test Automation",
     "history": [
       {
-        "position": "Test Automation Engineer",
+        "position": "Test Automation Engineer - International Gambling Company",
         "employer": "BJSS",
         "url": "https://bjss.com",
         "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place. Then moving to Test Automation as they grow their global platform for new markets.",
@@ -57,7 +57,9 @@
           "Developing New Jersey Sports book betting platform with Node.js",
           "Re-architecting & Refactoring automated test tooling and working with existing test team to set and enforce development standards",
           "Building quality into process by working with development team to set and meet agreed standards",
-          "Creating and executing test strategy for Kafka based streaming data adaptor"
+          "Creating and executing test strategy for Kafka based streaming data adaptor",
+          "Built automation framework for end-to-end testing streaming message based application in multiple environments",
+          "Created Jest Reporter to upload test results into Client's Zephyr test management software"
         ]
       },
       {
@@ -245,6 +247,22 @@
           "Social Media",
           "Wordpress",
           "PHP"
+        ],
+        "highlights": []
+      },
+      {
+        "category": "Community Organisation",
+        "role": "Software Developer",
+        "organisation": "The Silph Road",
+        "summary": "Software Developer for The Silph Road's mobile application built using React Native",
+        "start": "2019-05-09",
+        "keywords": [
+          "React Native",
+          "JavaScript",
+          "React",
+          "Android",
+          "iOS",
+          "Mobile App"
         ],
         "highlights": []
       }
@@ -1084,6 +1102,30 @@
         "Selenium"
       ],
       "summary": "Delivered talk about how HipTest can help with writing feature files"
+    },
+    {
+      "title": "Testing Kafka with Jest",
+      "event": "Ministry of Testing Leeds",
+      "location": "Leeds",
+      "date": "2019",
+      "keywords": [
+        "Kafka",
+        "Jest",
+        "JavaScript"
+      ],
+      "summary": "Delivered talk about my journey learning how to test a Kafka based application using Jest"
+    },
+    {
+      "title": "Testing Kafka with Jest",
+      "event": "LeedsJS",
+      "location": "Leeds",
+      "date": "2019",
+      "keywords": [
+        "Kafka",
+        "Jest",
+        "JavaScript"
+      ],
+      "summary": "Delivered talk about my journey learning how to test a Kafka based application using Jest"
     }
   ],
   "interests": [
@@ -1209,17 +1251,18 @@
   ],
   "samples": [
     {
-      "title": "Odoo Mocks Experiment",
-      "summary": "Experimenting with different techniques of mocking data in Odoo's test framework",
-      "url": "https://github.com/Gimpneek/odoo_mocks",
-      "date": "2015",
+      "title": "Testing Kafka App with Jest",
+      "summary": "",
+      "url": "https://github.com/Gimpneek/testing-kafka-app-with-jest",
+      "date": "2019",
       "highlights": [
-        "Created an experiment to show the impact of using different mocking techniques in Odoo"
+        "Created an example microservice based application to demonstrate how to end-to-end test a Kafka based application"
       ],
       "keywords": [
-        "Python",
-        "Odoo",
-        "Testing"
+        "Jest",
+        "Docker",
+        "Kafka",
+        "Avro"
       ]
     },
     {
@@ -1354,6 +1397,20 @@
         "Github",
         "Travis",
         "Codacy"
+      ]
+    },
+    {
+      "title": "Odoo Mocks Experiment",
+      "summary": "Experimenting with different techniques of mocking data in Odoo's test framework",
+      "url": "https://github.com/Gimpneek/odoo_mocks",
+      "date": "2015",
+      "highlights": [
+        "Created an experiment to show the impact of using different mocking techniques in Odoo"
+      ],
+      "keywords": [
+        "Python",
+        "Odoo",
+        "Testing"
       ]
     }
   ],
