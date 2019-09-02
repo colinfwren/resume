@@ -585,12 +585,12 @@
       "description": "Main contributor to Odoo Mocks a project to record the test performance from the different ways of using test data in Odoo",
       "summary": "Main contributor to Odoo Mocks",
       "role": "contributor",
-      "url": "https://github.com/Gimpneek/odoo_mocks",
+      "url": "https://github.com/colinfwren/odoo_mocks",
       "media": [
         {
           "category": "Source Code",
           "name": "Odoo Mocks",
-          "url": "https://github.com/Gimpneek/odoo_mocks"
+          "url": "https://github.com/colinfwren/odoo_mocks"
         },
         {
           "category": "Blog post",
@@ -598,7 +598,7 @@
           "url": "https://medium.com/@colinwren/patching-out-registries-in-odoo-tests-v8-46405bc5a22c"
         }
       ],
-      "repo": "https://github.com/Gimpneek/odoo_mocks",
+      "repo": "https://github.com/colinfwren/odoo_mocks",
       "start" :"2015-06-01",
       "end": "2015-06-01",
       "highlights": [
@@ -616,12 +616,12 @@
       "description": "Main contributor to midivis a project to visualise data in .midi files",
       "summary": "Main contributor to midivis",
       "role": "contributor",
-      "url": "https://github.com/Gimpneek/midivis",
+      "url": "https://github.com/colinfwren/midivis",
       "media": [
         {
           "category": "Source Code",
           "name": "midivis",
-          "url": "https://github.com/Gimpneek/midivis"
+          "url": "https://github.com/colinfwren/midivis"
         },
         {
           "category": "Blog post",
@@ -629,7 +629,7 @@
           "url": "https://medium.com/@colinwren/visualising-midi-files-with-python-b221feacd762"
         }
       ],
-      "repo": "https://github.com/Gimpneek/midivis",
+      "repo": "https://github.com/colinfwren/midivis",
       "start" :"2017-03-01",
       "end": "2017-03-01",
       "highlights": [
@@ -647,12 +647,12 @@
       "description": "Main contributor to Leeds Pokemon Go Raid Tracker, a tool to help Pokemon Go players track the raids against gyms in Leeds and by doing so increase their chance of an EX Raid",
       "summary": "Main contributor to Leeds Pokemon Go Raid Tracker",
       "role": "contributor",
-      "url": "https://github.com/Gimpneek/exclusive-raid-gym-tracker",
+      "url": "https://github.com/colinfwren/exclusive-raid-gym-tracker",
       "media": [
         {
           "category": "Source Code",
           "name": "midivis",
-          "url": "https://github.com/Gimpneek/exclusive-raid-gym-tracker"
+          "url": "https://github.com/colinfwren/exclusive-raid-gym-tracker"
         },
         {
           "category": "Blog post",
@@ -660,7 +660,7 @@
           "url": "https://medium.com/@colinwren/lessons-learned-from-building-a-pokemon-go-raid-tracker-bca8a69fb36"
         }
       ],
-      "repo": "https://github.com/Gimpneek/exclusive-raid-gym-tracker",
+      "repo": "https://github.com/colinfwren/exclusive-raid-gym-tracker",
       "start" :"2017-12-01",
       "end": "2018-06-01",
       "highlights": [
@@ -687,22 +687,22 @@
       "description": "Main contributor to PoGoSnap, a social media platform for sharing Pokemon Go Augmented Reality images",
       "summary": "Main contributor to PoGoSnap",
       "role": "contributor",
-      "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "url": "https://github.com/colinfwren/PoGoSnap-Web-Components",
       "media": [
         {
           "category": "Source Code",
           "name": "Web Components for PoGoSnap",
-          "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components"
+          "url": "https://github.com/colinfwren/PoGoSnap-Web-Components"
         },
         {
           "category": "Source Code",
           "name": "React.js frontend for PoGoSnap",
-          "url": "https://github.com/Gimpneek/PoGoSnap-Web"
+          "url": "https://github.com/colinfwren/PoGoSnap-Web"
         },
         {
           "category": "Source Code",
           "name": "Django based backend for PoGoSnap",
-          "url": "https://github.com/Gimpneek/PoGoSnap-API"
+          "url": "https://github.com/colinfwren/PoGoSnap-API"
         },
         {
           "category": "Blog post",
@@ -710,7 +710,7 @@
           "url": "https://medium.com/@colinwren/using-storybook-to-build-shared-understanding-e70dfe3208d2"
         }
       ],
-      "repo": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "repo": "https://github.com/colinfwren/PoGoSnap-Web-Components",
       "start" :"2018-01-01",
       "highlights": [
         "Created tool to help Pokemon Go players share their Augmented Reality images",
@@ -898,7 +898,7 @@
     {
       "label": "Github",
       "network": "Github",
-      "url": "https://github.com/Gimpneek",
+      "url": "https://github.com/colinfwren",
       "user": "Gimpneek"
     },
     {
@@ -1253,7 +1253,7 @@
     {
       "title": "Testing Kafka App with Jest",
       "summary": "",
-      "url": "https://github.com/Gimpneek/testing-kafka-app-with-jest",
+      "url": "https://github.com/colinfwren/testing-kafka-app-with-jest",
       "date": "2019",
       "highlights": [
         "Created an example microservice based application to demonstrate how to end-to-end test a Kafka based application"
@@ -1268,7 +1268,7 @@
     {
       "title": "PoGoSnap - Backend API",
       "summary": "API for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
-      "url": "https://github.com/Gimpneek/PoGoSnap-API",
+      "url": "https://github.com/colinfwren/PoGoSnap-API",
       "date": "2018",
       "highlights": [
         "Created a Swagger document to act as a contract while developing the API - https://app.swaggerhub.com/apis/colinwren/PoGoSnap",
@@ -1288,7 +1288,7 @@
     {
       "title": "PoGoSnap - Web Frontend",
       "summary": "Web Frontend for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
-      "url": "https://github.com/Gimpneek/PoGoSnap-Web",
+      "url": "https://github.com/colinfwren/PoGoSnap-Web",
       "date": "2018",
       "highlights": [
         "Used Storybook.js to create stories of user journeys through the app - https://gimpneek.github.io/PoGoSnap-Web/",
@@ -1307,7 +1307,7 @@
     {
       "title": "PoGoSnap - Web Components",
       "summary": "Web Components for PoGoSnap - a Pokemon Go Augmented Reality image sharing site",
-      "url": "https://github.com/Gimpneek/PoGoSnap-Web-Components",
+      "url": "https://github.com/colinfwren/PoGoSnap-Web-Components",
       "date": "2018",
       "highlights": [
         "Used Storybook.js to create an interactive component guide - https://gimpneek.github.io/PoGoSnap-Web-Components",
@@ -1325,7 +1325,7 @@
     {
       "title": "Leeds Pokemon Go Raid Tracker",
       "summary": "Pokemon Go Raid Tracker for Leeds, UK player group",
-      "url": "https://github.com/Gimpneek/raid-tracker-frontend",
+      "url": "https://github.com/colinfwren/raid-tracker-frontend",
       "date": "2017",
       "highlights": [
         "Created a BDD Automation suite to test app",
@@ -1352,7 +1352,7 @@
     {
       "title": "Midi data visualisation",
       "summary": "Created a project to process MIDI files and visualise them in matplotlib",
-      "url": "https://github.com/Gimpneek/midivis",
+      "url": "https://github.com/colinfwren/midivis",
       "date": "2017",
       "highlights": [
         "worked with MIDI data to visualise tempo and note changes"
@@ -1402,7 +1402,7 @@
     {
       "title": "Odoo Mocks Experiment",
       "summary": "Experimenting with different techniques of mocking data in Odoo's test framework",
-      "url": "https://github.com/Gimpneek/odoo_mocks",
+      "url": "https://github.com/colinfwren/odoo_mocks",
       "date": "2015",
       "highlights": [
         "Created an experiment to show the impact of using different mocking techniques in Odoo"
