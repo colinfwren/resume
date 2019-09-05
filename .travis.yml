@@ -12,6 +12,7 @@ script:
   - npm run createCVHTML
   - npm run createCVPDF
   - npm run createResumeHTML
+  - npm run generateLinkedInChanges
   - sleep 20
   - ls out
 deploy:

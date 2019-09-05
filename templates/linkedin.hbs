@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Updates To Make</title>
+    <style>
+        body {
+            font-family: "Ubuntu", sans-serif;
+            padding: 2em 40px;
+        }
+        h1 {
+            margin-top: 2em;
+        }
+        h1:first-child {
+            margin-top: 0px;
+        }
+        h2 {
+            margin-top: 1.5em;
+        }
+        h3 {
+            margin-top: 1em;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table th, table td {
+            text-align: left;
+            padding: 0.8em 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        table th:first-child, table td:first-child {
+            padding-left: 0px;
+            border-left-width: 0px;
+        }
+        table th:last-child, table td:last-child {
+            padding-right: 0px;
+        }
+        table th {
+            border-bottom-width: 2px;
+        }
+        table tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <p>Your resume is all up to date, here's what's changed and needs updating on your LinkedIn profile.</p>
+    {{#or about.additions about.changes about.removals}}
+        <h1>About</h1>
+    {{/or}}
+    {{#if about.additions}}
+        <h2>Additions</h2>
+        {{#each about.additions}}
+            <p{{body}}</p>
+        {{/each}}
+    {{/if}}
+    {{#if about.changes}}
+        <h2>Changes</h2>
+        {{#each about.changes}}
+            <p>{{body}}</p>
+        {{/each}}
+    {{/if}}
+    {{#if about.removals}}
+        <h2>Removals</h2>
+            {{#each about.removals}}
+        <p>{{body}}</p>
+        {{/each}}
+    {{/if}}
+
+    {{#or experience.additions experience.changes experience.removals}}
+        <h1>Experience</h1>
+    {{/or}}
+    {{#if experience.additions}}
+        <h2>Additions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each experience.additions}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{employer}}</td>
+                        <td>{{location}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if experience.changes}}
+        <h2>Changes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each experience.changes}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{employer}}</td>
+                        <td>{{location}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if experience.removals}}
+        <h2>Removals</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Company</th>
+                    <th>Location</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each experience.removals}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{employer}}</td>
+                        <td>{{location}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or education_certification_courses.additions education_certification_courses.changes education_certification_courses.removals}}
+        <h1>Education, Certifications and Courses</h1>
+    {{/or}}
+    {{#if education_certification_courses.additions}}
+        <h2>Additions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>School</th>
+                    <th>Degree</th>
+                    <th>Field Of Study</th>
+                    <th>Certification Name</th>
+                    <th>Course Name</th>
+                    <th>Start Year</th>
+                    <th>End Year</th>
+                    <th>Grade</th>
+                    <th>Activities or Societies</th>
+                    <th>Description</th>
+                    <th>Certification URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each education_certification_courses.additions}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{institution}}</td>
+                        <td>{{studyType}}</td>
+                        <td>{{area}}</td>
+                        <td>{{title}}</td>
+                        <td>{{name}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{grade}}</td>
+                        <td>
+                            <ul>
+                                {{#each highlights}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                        <td>{{summary}}</td>
+                        <td>{{url}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if education_certification_courses.changes}}
+        <h2>Changes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>School</th>
+                    <th>Degree</th>
+                    <th>Field Of Study</th>
+                    <th>Certification Title</th>
+                    <th>Course Name</th>
+                    <th>Start Year</th>
+                    <th>End Year</th>
+                    <th>Grade</th>
+                    <th>Activities or Societies</th>
+                    <th>Description</th>
+                    <th>Certification URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each education_certification_courses.changes}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{institution}}</td>
+                        <td>{{studyType}}</td>
+                        <td>{{area}}</td>
+                        <td>{{title}}</td>
+                        <td>{{name}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{grade}}</td>
+                        <td>
+                            <ul>
+                                {{#each highlights}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                        <td>{{summary}}</td>
+                        <td>{{url}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if education_certification_courses.removals}}
+        <h2>Removals</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>School</th>
+                    <th>Degree</th>
+                    <th>Field Of Study</th>
+                    <th>Certification Title</th>
+                    <th>Course Name</th>
+                    <th>Start Year</th>
+                    <th>End Year</th>
+                    <th>Grade</th>
+                    <th>Activities or Societies</th>
+                    <th>Description</th>
+                    <th>Certification URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each education_certification_courses.removals}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{institution}}</td>
+                        <td>{{studyType}}</td>
+                        <td>{{area}}</td>
+                        <td>{{title}}</td>
+                        <td>{{name}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{grade}}</td>
+                        <td>
+                            <ul>
+                                {{#each highlights}}
+                                    <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </td>
+                        <td>{{summary}}</td>
+                        <td>{{url}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or volunteer.additions volunteer.changes volunteer.removals}}
+        <h1>Volunteer</h1>
+    {{/or}}
+    {{#if volunteer.additions}}
+        <h2>Additions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Role</th>
+                    <th>Role</th>
+                    <th>Organisation</th>
+                    <th>Cause</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each volunteer.additions}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{organisation}}</td>
+                        <td>{{category}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if volunteer.changes}}
+        <h2>Changes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Role</th>
+                    <th>Role</th>
+                    <th>Organisation</th>
+                    <th>Cause</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each volunteer.changes}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{organisation}}</td>
+                        <td>{{category}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if volunteer.removals}}
+        <h2>Removals</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Role</th>
+                    <th>Role</th>
+                    <th>Organisation</th>
+                    <th>Cause</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each volunteer.removals}}
+                    <tr>
+                        <td>{{original_position}}</td>
+                        <td>{{position}}</td>
+                        <td>{{organisation}}</td>
+                        <td>{{category}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or skills.additions skills.changes skills.removals}}
+        <h1>Skills</h1>
+    {{/or}}
+    {{#if skills.additions}}
+        <h2>Additions</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each skills.additions}}
+                <tr>
+                    <td>
+                        <ul>
+                            {{#each skills}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if skills.changes}}
+        <h2>Changes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each skills.changes}}
+                <tr>
+                    <td>
+                        <ul>
+                            {{#each skills}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if skills.removals}}
+        <h2>Removals</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each skills.removals}}
+                <tr>
+                    <td>
+                        <ul>
+                            {{#each skills}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or publications.additions publications.changes publications.removals organisations.additions organisations.changes organisations.removals projects.additions projects.changes projects.removals honours.additions honours.changes honours.removals languages.additions languages.changes languages.removals}}
+        <h1>Accomplishments</h1>
+    {{/or}}
+
+    {{#or publications.additions publications.changes publications.removals}}
+        <h2>Publications</h2>
+    {{/or}}
+    {{#if publications.additions}}
+        <h3>Additions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Publication Date</th>
+                    <th>Publication URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each publications.additions}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{date}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if publications.changes}}
+        <h3>Changes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Publication Date</th>
+                    <th>Publication URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each publications.changes}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{date}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if publications.removals}}
+        <h3>Removals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Publication Date</th>
+                    <th>Publication URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each publications.removals}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{date}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or projects.additions projects.changes projects.removals}}
+        <h2>Projects</h2>
+    {{/or}}
+    {{#if projects.additions}}
+        <h3>Additions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Name</th>
+                    <th>Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Project URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each projects.additions}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if projects.changes}}
+        <h3>Changes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Name</th>
+                    <th>Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Project URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each projects.changes}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if projects.removals}}
+        <h3>Removals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Name</th>
+                    <th>Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Project URL</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each projects.removals}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{url}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or honours.additions honours.changes honours.removals}}
+        <h2>Honours</h2>
+    {{/or}}
+    {{#if honours.additions}}
+        <h3>Additions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Issuer</th>
+                    <th>Issue Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each honours.additions}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{from}}</td>
+                        <td>{{date}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if honours.changes}}
+        <h3>Changes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Issuer</th>
+                    <th>Issue Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each honours.changes}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{from}}</td>
+                        <td>{{date}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if honours.removals}}
+        <h3>Removals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Title</th>
+                    <th>Title</th>
+                    <th>Issuer</th>
+                    <th>Issue Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each honours.removals}}
+                    <tr>
+                        <td>{{original_title}}</td>
+                        <td>{{title}}</td>
+                        <td>{{from}}</td>
+                        <td>{{date}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or languages.additions languages.changes languages.removals}}
+        <h2>Languages</h2>
+    {{/or}}
+    {{#if languages.additions}}
+        <h3>Additions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each languages.additions}}
+                    <tr>
+                        <td>{{language}}</td>
+                        <td>{{level}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if languages.changes}}
+        <h3>Changes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each languages.changes}}
+                    <tr>
+                        <td>{{language}}</td>
+                        <td>{{level}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if languages.removals}}
+        <h3>Removals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each languages.removals}}
+                    <tr>
+                        <td>{{language}}</td>
+                        <td>{{level}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+
+    {{#or organisations.additions organisations.changes organisations.removals}}
+        <h2>Organisations</h2>
+    {{/or}}
+    {{#if organisations.additions}}
+        <h3>Additions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Position Held</th>
+                    <th>Position Held</th>
+                    <th>Organisation</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each organisations.additions}}
+                    <tr>
+                        <td>{{original_role}}</td>
+                        <td>{{role}}</td>
+                        <td>{{organization}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if organisations.changes}}
+        <h3>Changes</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Position Held</th>
+                    <th>Position Held</th>
+                    <th>Organisation</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each organisations.changes}}
+                    <tr>
+                        <td>{{original_role}}</td>
+                        <td>{{role}}</td>
+                        <td>{{organization}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+    {{#if organisations.removals}}
+        <h3>Removals</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Original Position Held</th>
+                    <th>Position Held</th>
+                    <th>Organisation</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each organisations.removals}}
+                    <tr>
+                        <td>{{original_role}}</td>
+                        <td>{{role}}</td>
+                        <td>{{organization}}</td>
+                        <td>{{start}}</td>
+                        <td>{{end}}</td>
+                        <td>{{summary}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{/if}}
+</body>
+</html>

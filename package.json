@@ -8,7 +8,10 @@
     "createCVPDF": "node scripts/print-with-puppeteer.js",
     "createResumeHTML": "hackmyresume build resume.json to out/resume.html -t ./node_modules/jsonresume-theme-orbit",
     "analyze": "hackmyresume analyze resume.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getOldResume": "git checkout HEAD^ resume.json && cp resume.json resumeOld.json && git checkout HEAD resume.json",
+    "printChanges": "node ./scripts/generate-linkedin-changes.js resumeOld.json resume.json",
+    "generateLinkedInChanges": "npm run getOldResume && npm run printChanges"
   },
   "repository": {
     "type": "git",
@@ -33,6 +36,9 @@
     "fresh-themes": "Gimpneek/fresh-themes#feature/colinwren",
     "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-orbit": "^0.5.3",
-    "puppeteer": "^1.11.0"
+    "puppeteer": "^1.11.0",
+    "commander": "^3.0.1",
+    "handlebars": "^4.2.0",
+    "json-diff": "^0.5.4"
   }
 }
