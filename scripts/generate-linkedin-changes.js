@@ -28,10 +28,6 @@ program.parse(process.argv);
  */
 const jsonDiff = require('json-diff');
 const diff = jsonDiff.diff(oldJSON, newJSON);
-if (typeof(diff) == 'undefined') {
-  console.log('Error generating diff');
-  process.exit(1);
-}
 
 const addSuffix = '__added';
 const removeSuffix = '__deleted';
