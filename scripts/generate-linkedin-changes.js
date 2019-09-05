@@ -165,21 +165,23 @@ const printArrayChanges = (section, itemKey, v3Section, sectionKey, keys) => {
   }
 };
 
-if (!(typeof(diff) == 'undefined') && !(typeof(diff.info) == 'undefined') && !(typeof(diff.info.brief) == 'undefined')) {
-  changes.about.changes.push({ body: diff.info.brief.__new })
+if (!(typeof(diff) == 'undefined')){
+  if (!(typeof(diff.info) == 'undefined') && !(typeof(diff.info.brief) == 'undefined')) {
+    changes.about.changes.push({ body: diff.info.brief.__new })
+  }
+
+  const employmentKeys = ['position', 'employer', 'location', 'start', 'end', 'summary'];
+  printArrayChanges(diff.employment, 'history', newJSON.employment, 'experience', employmentKeys);
+
+  const educationKeys = ['institution', 'studyType', 'area', 'start', 'end', 'grade', 'highlights', 'summary', 'title', 'url', 'name'];
+  printArrayChanges(diff.education, 'history', newJSON.education, 'education_certification_courses', educationKeys);
+
+  const serviceKeys = ['organisation', 'position', 'category', 'start', 'end', 'summary', 'role'];
+  printArrayChanges(diff.service, 'history', newJSON.service, 'volunteer', serviceKeys);
+
+  const skillKeys = ['skills'];
+  printArrayChanges(diff.skills, 'sets', newJSON.skills, 'skills', skillKeys);
 }
-
-const employmentKeys = ['position', 'employer', 'location', 'start', 'end', 'summary'];
-printArrayChanges(diff.employment, 'history', newJSON.employment, 'experience', employmentKeys);
-
-const educationKeys = ['institution', 'studyType', 'area', 'start', 'end', 'grade', 'highlights', 'summary', 'title', 'url', 'name'];
-printArrayChanges(diff.education, 'history', newJSON.education, 'education_certification_courses', educationKeys);
-
-const serviceKeys = ['organisation', 'position', 'category', 'start', 'end', 'summary', 'role'];
-printArrayChanges(diff.service, 'history', newJSON.service, 'volunteer', serviceKeys);
-
-const skillKeys = ['skills'];
-printArrayChanges(diff.skills, 'sets', newJSON.skills, 'skills', skillKeys);
 
 const writingKeys = ['title', 'date', 'url', 'summary'];
 printArrayChanges(diff, 'writing', newJSON, 'publications', writingKeys);
