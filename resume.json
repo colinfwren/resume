@@ -19,7 +19,7 @@
     "country": "United Kingdom"
   },
   "employment": {
-    "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 6 months working in Test Automation",
+    "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 9 months working in Test Automation",
     "history": [
       {
         "position": "Cell Lead - International Optometry Retailer",
@@ -38,14 +38,15 @@
           "Leadership"
         ],
         "highlights": [
-          "Lead a delivery cell of three Developers, one Tester and one Business Analyst"
+          "Lead a delivery cell of three Developers, one Tester and one Business Analyst",
+          "Reported risks and impediments to teams performance to management team"
         ]
       },
       {
         "position": "Test Automation Engineer - International Gambling Company",
         "employer": "BJSS",
         "url": "https://bjss.com",
-        "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place. Then moving to Test Automation as they grow their global platform for new markets.",
+        "summary": "Working for a international gambling sector client to launch their New Jersey offering. Moved from Development to Test Automation as they grow their global platform for new markets. Developed a regression suite for testing a Kafka based sports data platform with bi-directional traceability in JIRA",
         "start": "2018-02-01",
         "end": "2019-08-31",
         "location": "Leeds, West Yorkshire, United Kingdom",
