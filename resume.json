@@ -22,12 +22,32 @@
     "summary": "9 years development experience, 5 year experience working on open source, 8 years experience working in healthcare. 6 months working in Test Automation",
     "history": [
       {
+        "position": "Cell Lead - International Optometry Retailer",
+        "employer": "BJSS",
+        "summary": "Lead a delivery cell of three Developers, one Tester and one Business Analyst to deliver new functionality and refactor client's existing website.",
+        "url": "https://bjss.com",
+        "current": true,
+        "start": "2019-09-01",
+        "location": "Leeds, West Yorkshire, United Kingdom",
+        "keywords": [
+          "PHP",
+          "Drupal",
+          "Github",
+          "Travis CI",
+          "SonarQube",
+          "Leadership"
+        ],
+        "highlights": [
+          "Lead a delivery cell of three Developers, one Tester and one Business Analyst"
+        ]
+      },
+      {
         "position": "Test Automation Engineer - International Gambling Company",
         "employer": "BJSS",
         "url": "https://bjss.com",
         "summary": "Initially working for a international gambling sector client to launch their New Jersey offering in time to meet the change in New Jersey state law that allowed sports book betting to take place. Then moving to Test Automation as they grow their global platform for new markets.",
-        "current": true,
         "start": "2018-02-01",
+        "end": "2019-08-31",
         "location": "Leeds, West Yorkshire, United Kingdom",
         "keywords": [
           "JavaScript",
