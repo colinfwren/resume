@@ -165,7 +165,7 @@ const printArrayChanges = (section, itemKey, v3Section, sectionKey, keys) => {
   }
 };
 
-if (!(typeof(diff.info) == 'undefined') && !(typeof(diff.info.brief) == 'undefined')) {
+if (!(typeof(diff) == 'undefined') && !(typeof(diff.info) == 'undefined') && !(typeof(diff.info.brief) == 'undefined')) {
   changes.about.changes.push({ body: diff.info.brief.__new })
 }
 
